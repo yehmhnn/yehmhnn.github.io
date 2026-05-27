@@ -21,7 +21,6 @@ Tags:
 [[Reinforcement Learning]]
 [[Reproducible Machine Learning]]
 [[Process Reward Modeling in LLMs]]
-[[GPU]]
 
 ...
 
