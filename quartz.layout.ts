@@ -4,12 +4,16 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [
+    Component.PageTitle(),
+    // Component.DesktopOnly(Component.Spacer()),
+    Component.Darkmode(),
+  ],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      // GitHub: "https://github.com/jackyzha0/quartz",
+      // "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -18,32 +22,37 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
+      component: Component.Breadcrumbs(),
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ConditionalRender({
+      condition: (page) => page.fileData.slug !== "index",
+      component: Component.ContentMeta(),
+      }),
+    // Component.ArticleTitle(),
+    // Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
-    Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    // Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+  ],
+  afterBody: [
+    Component.ConditionalRender({
+      condition: (page) => page.fileData.slug === "index",
+      component: Component.RecentNotes({
+        title: "Recent Activity",
+        limit: 10,
+        showTags: false,
+        linkToMore: "Notes/",
+        // --- ADD THE FILTER LINE BELOW ---
+        filter: (f) => f.filePath?.startsWith("content/Notes/") ?? false,
+      })
+    }),
   ],
 }
 
@@ -51,18 +60,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.Explorer(),
   ],
   right: [],
 }
