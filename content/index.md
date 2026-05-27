@@ -17,7 +17,7 @@ mind map, but not in one direction
 
 
 Tags:
-[[Machine learning]]
+[[Machine Learning]]
 [[Reinforcement Learning]]
 [[Reproducible Machine Learning]]
 [[Process Reward Modeling in LLMs]]
