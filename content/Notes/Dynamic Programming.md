@@ -1,5 +1,9 @@
-2026-05-07 12:45
-Tags: [[Reinforcement Learning]]
+---
+title: "Dynamic Programming"
+created: "2026-05-07 12:45"
+tags file:
+  - "[[Reinforcement Learning]]"
+---
 ***
 
 In Reinforcement Learning (RL), **Policy Iteration** and **Value Iteration** are the two fundamental Dynamic Programming algorithms used to solve Markov Decision Processes (MDPs) when the model of the environment is fully known.

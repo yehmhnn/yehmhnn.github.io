@@ -1,5 +1,9 @@
-2026-04-11 12:31
-Tags: [[GPU]]
+---
+title: "FGMT (Fine-Grained Multi-Threading)"
+created: "2026-04-11 12:31"
+tags file:
+  - [[GPU]]
+---
 ***
 This is the **Latency Hider**.
 

@@ -1,5 +1,9 @@
-2026-04-14 18:15
-Tags: [[GPU]]
+---
+title: "CTA (Cooperative Thread Array)"
+created: "2026-04-14 18:15"
+tags file:
+  - [[GPU]]
+---
 ***
 **CTA** stands for **Cooperative Thread Array**. In the CUDA thread hierarchy, this is the formal name for a **Thread Block**.
 

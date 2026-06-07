@@ -1,6 +1,6 @@
 ---
 title: "Reproducible ML project"
-create: "2026-05-24 12:57"
+created: "2026-05-24 12:57"
 tags file:
 ---
 # PROJECT PROPOSAL

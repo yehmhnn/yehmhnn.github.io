@@ -1,6 +1,6 @@
 ---
 title: "different bootstrap methods"
-create: "2026-05-17 20:17"
+created: "2026-05-17 20:17"
 tags file:
 ---
 - **`percentile` (Percentile Bootstrap):** 

@@ -1,5 +1,9 @@
-2026-05-12 15:13
-Tags: [[Machine Learning]]
+---
+title: "Kullback-Leibler (KL) Divergence"
+created: "2026-05-12 15:13"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 ### Definition

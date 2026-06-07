@@ -1,5 +1,9 @@
-2026-05-06 19:06
-Tags: [[Probability & Statistics]]
+---
+title: Covariance
+created: "2026-05-06 19:06"
+tags file:
+  - "[[Probability & Statistics]]"
+---
 ***
 
 If you have two variables, $X$ and $Y$, covariance measures their **linear relationship**.

@@ -1,5 +1,9 @@
-2026-05-12 15:27
-Tags: [[Machine Learning]]
+---
+title: "Bayes Optimal Classifier"
+created: "2026-05-12 15:27"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 In machine learning and statistics, the "best" possible classifier is the **Bayes Optimal Classifier**. While it is largely a theoretical construct, it serves as the gold standard for performance because it represents the mathematical limit of what any classification system can achieve.

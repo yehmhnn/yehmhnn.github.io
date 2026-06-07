@@ -1,5 +1,9 @@
-2026-05-12 14:47
-Tags: [[Machine Learning]]
+---
+title: Perceptron
+created: "2026-05-12 14:47"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 

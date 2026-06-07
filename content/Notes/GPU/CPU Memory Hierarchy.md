@@ -1,5 +1,9 @@
-2026-04-08 10:23
-Tags: [[GPU Memory Hierarchy]]
+---
+title: "CPU Memory Hierarchy"
+created: "2026-04-08 10:23"
+tags file:
+  - "[[GPU Memory Hierarchy]]"
+---
 ***
 ### **The Internal "Work Desk"**
 

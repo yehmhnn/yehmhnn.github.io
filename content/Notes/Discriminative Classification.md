@@ -1,5 +1,9 @@
-2026-05-08 16:17
-Tags: [[Machine Learning]]
+---
+title: "Discriminative Classification"
+created: "2026-05-08 16:17"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 **The Philosophy:** "I don't care what a cat or dog looks like in isolation; I only care about the boundary that separates them."

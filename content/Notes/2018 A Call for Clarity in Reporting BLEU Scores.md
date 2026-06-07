@@ -1,5 +1,8 @@
-2026-05-05 12:33
-Tags: 
+---
+title: "2018 A Call for Clarity in Reporting BLEU Scores"
+created: "2026-05-05 12:33"
+tags file:
+---
 
 Title: 
 Authors: 

@@ -1,6 +1,6 @@
 ---
 title: Iron Law of ML Systems
-create: 2026-06-02 14:45
+created: 2026-06-02 14:45
 tags file:
   - "[[ML System MOCs]]"
 ---

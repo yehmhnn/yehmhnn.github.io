@@ -1,5 +1,9 @@
-2026-04-08 09:13
-Tags: [[GPU]]
+---
+title: "Instruction Overhead"
+created: "2026-04-08 09:13"
+tags file:
+  - [[GPU]]
+---
 ***
 This refers to the "extra" instructions the GPU has to run that don't actually contribute to your final math result—things like loop counters, pointer arithmetic, and index calculations.
 

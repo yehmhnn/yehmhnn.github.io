@@ -1,5 +1,9 @@
-2026-03-31 15:07
-Tags: [[GNNs]]
+---
+title: "Normalizing Flows"
+created: "2026-03-31 15:07"
+tags file:
+  - [[GNNs]]
+---
 ***
 ## Concepts & Math
 1. Core Idea

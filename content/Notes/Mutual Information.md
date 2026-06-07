@@ -1,6 +1,6 @@
 ---
 title: "Mutual Information"
-create: "2026-06-04 12:19"
+created: "2026-06-04 12:19"
 tags file:
 ---
 **Mutual Information** measures the information shared between the model's weight distribution and its prediction. It isolates [[Epistemic Uncertainty]], which is the model's "lack of knowledge" or architectural uncertainty about an input.

@@ -1,5 +1,9 @@
-2026-05-08 16:08
-Tags: [[Machine Learning]]
+---
+title: "Generative Classification"
+created: "2026-05-08 16:08"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 **The Philosophy:** "To tell a cat from a dog, I must first learn what a cat looks like and what a dog looks like individually."

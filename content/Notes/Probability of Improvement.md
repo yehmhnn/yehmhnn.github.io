@@ -1,6 +1,6 @@
 ---
 title: "Probability of Improvement"
-create: "2026-05-17 21:14"
+created: "2026-05-17 21:14"
 tags file:
 ---
 When comparing a new experimental model (Algorithm $X$) against an established baseline (Algorithm $Y$), researchers usually check if $\text{Mean}(X) > \text{Mean}(Y)$. This does not tell you how reliable the improvement is on a day-to-day basis.

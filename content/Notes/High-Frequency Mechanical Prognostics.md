@@ -1,6 +1,6 @@
 ---
 title: High-Frequency Mechanical Prognostics
-create: 2026-05-23 10:33
+created: 2026-05-23 10:33
 tags file:
   - "[[Flow Matching]]"
   - "[[2025 FLOW MATCHING WITH GAUSSIAN PROCESS PRIORS FOR PROBABILISTIC TIME SERIES FORECASTING]]"

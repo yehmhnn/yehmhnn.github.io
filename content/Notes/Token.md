@@ -1,6 +1,6 @@
 ---
 title: Token
-create: 2026-06-01 12:16
+created: 2026-06-01 12:16
 tags file:
   - "[[LLM]]"
 ---

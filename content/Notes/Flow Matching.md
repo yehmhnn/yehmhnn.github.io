@@ -1,5 +1,9 @@
-2026-03-31 14:02
-Tags: [[GNNs]]
+---
+title: "Flow Matching"
+created: "2026-03-31 14:02"
+tags file:
+  - [[GNNs]]
+---
 
 Def: a simulation-free approach for training CNFs based on regressing vector fields of fixed conditional probability paths. -- ([Flow Matching for Generative Modeling (2022)](https://arxiv.org/abs/2210.02747))
 - Rewrite: a simulation-free approach for training [[Continuous Normalizing Flows (CNFs)]] based on regressing vector fields of fixed conditional probability paths.

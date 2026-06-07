@@ -1,6 +1,6 @@
 ---
 title: "Odds Ratios"
-create: "2026-06-06 14:42"
+created: "2026-06-06 14:42"
 tags file:
 ---
 ## What is an Odds Ratio?

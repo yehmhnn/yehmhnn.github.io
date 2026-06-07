@@ -1,6 +1,6 @@
 ---
 title: Thinking—Fast, Slow, and Artificial - How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender
-create: 2026-06-05 23:50
+created: 2026-06-05 23:50
 tags file:
   - "[[How with AI]]"
 ---

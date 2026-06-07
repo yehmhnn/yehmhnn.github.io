@@ -1,5 +1,8 @@
-2026-05-05 11:21
-Tags: 
+---
+title: "2017 Reporting Score Distributions Makes a Difference - Performance Study of LSTM-networks for Sequence Tagging"
+created: "2026-05-05 11:21"
+tags file:
+---
 
 Title: 
 Authors: 

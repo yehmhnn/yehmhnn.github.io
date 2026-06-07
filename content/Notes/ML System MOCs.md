@@ -1,6 +1,6 @@
 ---
 title: "ML System MOCs"
-create: "2026-05-31 16:42"
+created: "2026-05-31 16:42"
 tags file:
 ---
 course: Harvard CS249r / MLSysBook

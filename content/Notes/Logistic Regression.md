@@ -1,5 +1,9 @@
-2026-05-07 14:41
-Tags: [[Machine Learning]]
+---
+title: "Logistic Regression"
+created: "2026-05-07 14:41"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 

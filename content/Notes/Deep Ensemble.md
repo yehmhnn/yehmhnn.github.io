@@ -1,6 +1,6 @@
 ---
 title: "Deep Ensemble"
-create: "2026-06-04 08:34"
+created: "2026-06-04 08:34"
 tags file:
 ---
 A **Deep Ensemble** is a specific type of [[Ensemble]] method tailored for deep learning where you train multiple independent Deep Neural Networks (DNNs) from scratch to solve the same problem.

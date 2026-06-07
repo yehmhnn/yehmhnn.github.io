@@ -1,5 +1,9 @@
-2026-04-14 21:18
-Tags: [[GPU]]
+---
+title: "Streaming Multiprocessors (SMs)"
+created: "2026-04-14 21:18"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## 1. Overview

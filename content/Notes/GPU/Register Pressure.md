@@ -1,5 +1,9 @@
-2026-04-13 09:51
-Tags: [[GPU]]
+---
+title: "Register Pressure"
+created: "2026-04-13 09:51"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## Defining the Terms

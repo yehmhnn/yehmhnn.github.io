@@ -1,6 +1,6 @@
 ---
 title: "Softmax Calibration"
-create: "2026-06-04 07:14"
+created: "2026-06-04 07:14"
 tags file:
 ---
 Softmax calibration is the process of adjusting a neural network’s raw probability outputs so that they accurately reflect the true likelihood of a prediction being correct.

@@ -1,5 +1,9 @@
-2026-04-13 10:15
-Tags: [[GPU]]
+---
+title: "Register Spilling"
+created: "2026-04-13 10:15"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## 1. Defining the Terms

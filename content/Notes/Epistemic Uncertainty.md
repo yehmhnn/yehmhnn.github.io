@@ -1,6 +1,6 @@
 ---
 title: Epistemic Uncertainty
-create: 2026-06-03 13:32
+created: 2026-06-03 13:32
 tags file:
   - "[[Machine Learning]]"
   - "[[Scalable & Robust ML]]"

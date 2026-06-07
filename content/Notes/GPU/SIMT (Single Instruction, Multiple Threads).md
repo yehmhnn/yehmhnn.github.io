@@ -1,5 +1,9 @@
-2026-04-11 12:21
-Tags: [[GPU]]
+---
+title: "SIMT (Single Instruction, Multiple Threads)"
+created: "2026-04-11 12:21"
+tags file:
+  - [[GPU]]
+---
 ***
 This is the "Secret Sauce" invented by NVIDIA. It is the **Execution Model**.
 

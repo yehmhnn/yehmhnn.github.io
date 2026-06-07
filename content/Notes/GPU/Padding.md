@@ -1,5 +1,9 @@
-2026-04-09 09:27
-Tags: [[GPU]]
+---
+title: Padding
+created: "2026-04-09 09:27"
+tags file:
+  - [[GPU]]
+---
 ***
 
 The hardware only follows one single, hard-coded rule for every memory request:

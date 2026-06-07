@@ -1,6 +1,6 @@
 ---
 title: "Interquartile Mean (IQM)"
-create: "2026-05-17 21:13"
+created: "2026-05-17 21:13"
 tags file:
 ---
 The **Interquartile Mean** is the ultimate compromise between the mean and the median. It offers the outlier robustness of the median while retaining the statistical efficiency and tight confidence intervals of the mean.

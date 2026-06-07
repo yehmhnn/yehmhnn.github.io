@@ -1,6 +1,6 @@
 ---
 title: MobileNet
-create: 2026-06-07 19:40
+created: 2026-06-07 19:40
 tags file:
 ---
 ## Overview

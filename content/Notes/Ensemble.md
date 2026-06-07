@@ -1,6 +1,6 @@
 ---
 title: Ensemble
-create: 2026-06-03 11:12
+created: 2026-06-03 11:12
 tags file:
   - "[[Machine Learning]]"
 ---

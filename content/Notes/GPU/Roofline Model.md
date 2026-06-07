@@ -1,5 +1,9 @@
-2026-04-10 13:24
-Tags: [[GPU]]
+---
+title: "Roofline Model"
+created: "2026-04-10 13:24"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## 1. Overview

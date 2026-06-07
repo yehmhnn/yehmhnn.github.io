@@ -1,5 +1,9 @@
-2026-05-08 16:19
-Tags: [[Machine Learning]]
+---
+title: "Linear Classification"
+created: "2026-05-08 16:19"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 **The Geometry:** This refers to any classifier where the decision boundary is a **hyperplane** (a line in 2D, a plane in 3D, etc.).

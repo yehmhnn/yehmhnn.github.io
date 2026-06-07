@@ -1,5 +1,9 @@
-2026-05-06 20:05
-Tags: [[Coding]]
+---
+title: "Python venv settings"
+created: "2026-05-06 20:05"
+tags file:
+  - [[Coding]]
+---
 ***
 ### 1. Create Virtual Environment
 

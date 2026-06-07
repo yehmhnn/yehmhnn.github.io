@@ -1,6 +1,6 @@
 ---
 title: Evaluation Metrics
-create: 2026-05-23 00:27
+created: 2026-05-23 00:27
 tags file:
   - "[[2025 FLOW MATCHING WITH GAUSSIAN PROCESS PRIORS FOR PROBABILISTIC TIME SERIES FORECASTING]]"
 ---

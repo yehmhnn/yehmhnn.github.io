@@ -1,5 +1,8 @@
-2026-04-14 11:30
-Tags: 
+---
+title: "Reproducible Machine Learning"
+created: "2026-04-14 11:30"
+tags file:
+---
 ***
 - Sources of Nondeterminism: 
 	- Implementation-Level

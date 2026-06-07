@@ -1,5 +1,9 @@
-2026-04-13 20:40
-Tags: [[GPU]]
+---
+title: "Pinned & Unpinned Host Memory"
+created: "2026-04-13 20:40"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## 1. Unpinned (Pageable) Memory

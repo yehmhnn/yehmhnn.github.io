@@ -1,5 +1,9 @@
-2026-04-08 09:39
-Tags: [[GPU]]
+---
+title: "GPU Execution Hierarchy"
+created: "2026-04-08 09:39"
+tags file:
+  - [[GPU]]
+---
 ***
 - **Thread:** 
 	- The smallest unit of execution. A thread runs your kernel (code) on a single piece of data.

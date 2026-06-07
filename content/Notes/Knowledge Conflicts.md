@@ -1,5 +1,8 @@
-2026-04-13 15:49
-Tags: 
+---
+title: "Knowledge Conflicts"
+created: "2026-04-13 15:49"
+tags file:
+---
 ***
 3 types:
 1. **Context-Memory Conflict** 

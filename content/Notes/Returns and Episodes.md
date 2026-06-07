@@ -1,6 +1,6 @@
 ---
 title: Returns and Episodes
-create: 2026-05-26 14:57
+created: 2026-05-26 14:57
 tags file:
   - "[[Reinforcement Learning]]"
 ---

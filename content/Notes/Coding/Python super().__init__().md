@@ -1,5 +1,9 @@
-2026-05-12 13:02
-Tags: [[Coding]]
+---
+title: "Python super().__init__()"
+created: "2026-05-12 13:02"
+tags file:
+  - [[Coding]]
+---
 ***
 
 In Python, **`super().__init__()`** is how a "child" class tells its "parent" class: _"Hey, before I start doing my own thing, please run your own setup instructions first."_

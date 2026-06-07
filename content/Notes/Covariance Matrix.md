@@ -1,5 +1,9 @@
-2026-05-06 19:03
-Tags: [[Machine Learning]]
+---
+title: "Covariance Matrix"
+created: "2026-05-06 19:03"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 If you have a vector $X = [X_1, X_2, \dots, X_n]$, the covariance matrix is an $n \times n$ square matrix where every entry $(i, j)$ represents the covariance between $X_i$ and $X_j$.

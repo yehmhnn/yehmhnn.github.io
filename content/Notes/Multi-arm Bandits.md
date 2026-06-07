@@ -1,5 +1,9 @@
-2026-04-27 17:21
-Tags: [[Reinforcement Learning]]
+---
+title: "Multi-arm Bandits"
+created: "2026-04-27 17:21"
+tags file:
+  - "[[Reinforcement Learning]]"
+---
 ***
 ### Definition
 

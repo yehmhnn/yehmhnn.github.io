@@ -1,6 +1,6 @@
 ---
 title: "Bayesian Neural Networks (BNNs)"
-create: "2026-06-04 07:56"
+created: "2026-06-04 07:56"
 tags file:
 ---
 A **Bayesian Neural Network (BNN)** is an extension of classical deep learning architectures that introduces probabilistic uncertainty into its weights and biases.

@@ -1,6 +1,6 @@
 ---
 title: "Figure 6 - Validating 95% Stratified Bootstrap CIs"
-create: "2026-05-17 20:24"
+created: "2026-05-17 20:24"
 tags file:
 ---
 ![[Pasted image 20260517202557.png|406]]

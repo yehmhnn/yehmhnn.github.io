@@ -1,5 +1,8 @@
-2026-04-28 14:19
-Tags: 
+---
+title: "2021 Descending through a Crowded Valley - Benchmarking Deep Learning Optimizers"
+created: "2026-04-28 14:19"
+tags file:
+---
 
 Title: 
 Authors: Robin M. Schmidt, Frank Schneider, Philipp Hennig

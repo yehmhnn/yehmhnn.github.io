@@ -1,5 +1,8 @@
-2026-05-07 16:38
-Tags: 
+---
+title: "2025 GenPRM - Scaling Test-Time Compute of Process Reward Models via Generative Reasoning"
+created: "2026-05-07 16:38"
+tags file:
+---
 
 Title: 
 Authors: 

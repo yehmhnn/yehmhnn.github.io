@@ -1,5 +1,9 @@
-2026-05-06 20:34
-Tags: [[Coding]]
+---
+title: "Python `__name__`"
+created: "2026-05-06 20:34"
+tags file:
+  - [[Coding]]
+---
 ***
 
 # Python: The `__name__` Variable

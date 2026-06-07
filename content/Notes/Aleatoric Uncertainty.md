@@ -1,6 +1,6 @@
 ---
 title: Aleatoric Uncertainty
-create: 2026-06-03 11:21
+created: 2026-06-03 11:21
 tags file:
   - "[[Machine Learning]]"
   - "[[Scalable & Robust ML]]"

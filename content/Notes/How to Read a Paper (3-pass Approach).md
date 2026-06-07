@@ -1,5 +1,8 @@
-2026-03-31 12:57
-Tags:
+---
+title: "How to Read a Paper (3-pass Approach)"
+created: "2026-03-31 12:57"
+tags file:
+---
 
 # The 3-pass Approach
 ## 1st Pass (5-10 min.)

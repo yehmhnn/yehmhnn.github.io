@@ -1,6 +1,6 @@
 ---
 title: "Stratified Bootstrap Confidence Intervals"
-create: "2026-05-17 19:14"
+created: "2026-05-17 19:14"
 tags file:
 ---
 ### 1. The Core Problem: Why Standard Bootstrapping Fails Here

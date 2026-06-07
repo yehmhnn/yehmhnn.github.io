@@ -1,5 +1,9 @@
-2026-05-07 11:30
-Tags: [[Reinforcement Learning]]
+---
+title: "Bellman Equations"
+created: "2026-05-07 11:30"
+tags file:
+  - "[[Reinforcement Learning]]"
+---
 ***
 
 idea: Replace a huge path expectation by a recursive one-step decomposition.

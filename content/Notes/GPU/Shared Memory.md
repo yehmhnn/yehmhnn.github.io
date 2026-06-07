@@ -1,5 +1,9 @@
-2026-04-09 07:32
-Tags: [[GPU]]
+---
+title: "Shared Memory"
+created: "2026-04-09 07:32"
+tags file:
+  - [[GPU]]
+---
 ***
 Shared memory is not one big block of memory; it is divided into **32 equally sized memory modules called "banks."** These banks are designed so they can be accessed simultaneously. In a perfect scenario, each of the 32 threads in a warp can access one bank each, allowing the GPU to process all 32 memory requests in a single clock cycle.
 

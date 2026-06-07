@@ -1,6 +1,6 @@
 ---
 title: "{{title}}"
-create: "{{date}} {{time}}"
+created: "{{date}} {{time}}"
 tags file:
 ---
 # Abstract & Key Takeaways

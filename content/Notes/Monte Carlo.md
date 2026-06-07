@@ -1,6 +1,6 @@
 ---
 title: "Monte Carlo"
-create: "2026-06-03 11:38"
+created: "2026-06-03 11:38"
 tags file:
 ---
 - **Definition:** Algorithms that rely on repeated random sampling to obtain numerical results.

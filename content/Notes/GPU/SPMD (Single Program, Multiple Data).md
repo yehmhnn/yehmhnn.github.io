@@ -1,5 +1,9 @@
-2026-04-11 11:18
-Tags: [[GPU]]
+---
+title: "SPMD (Single Program, Multiple Data)"
+created: "2026-04-11 11:18"
+tags file:
+  - [[GPU]]
+---
 ***
 
 In CUDA, **SPMD** is the programming model. It is the software-level view of how you write code.

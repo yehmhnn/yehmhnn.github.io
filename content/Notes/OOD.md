@@ -1,6 +1,6 @@
 ---
 title: OOD
-create: 2026-06-03 19:36
+created: 2026-06-03 19:36
 tags file:
   - "[[Scalable & Robust ML]]"
 ---

@@ -1,5 +1,9 @@
-2026-04-11 11:05
-Tags: [[GPU]]
+---
+title: "Data Parallelism"
+created: "2026-04-11 11:05"
+tags file:
+  - [[GPU]]
+---
 ***
 ### The Relationship Hierarchy
 

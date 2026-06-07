@@ -1,6 +1,6 @@
 ---
 title: "Optimality Gap"
-create: "2026-05-17 21:14"
+created: "2026-05-17 21:14"
 tags file:
 ---
 When algorithms achieve "superhuman" performance, standard averages become completely warped. An algorithm that scores a $10.0$ (1000% of human capability) on an easy game can mathematically drag up its average, hiding zero-scores elsewhere.

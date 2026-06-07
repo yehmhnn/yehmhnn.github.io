@@ -1,6 +1,6 @@
 ---
 title: "The Bitter Lesson (Richard Sutton)"
-create: "2026-05-31 16:11"
+created: "2026-05-31 16:11"
 tags file:
 ---
 ### The Core Thesis

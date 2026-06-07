@@ -1,6 +1,6 @@
 ---
 title: Cognitive Surrender Solutions
-create: 2026-06-06 06:28
+created: 2026-06-06 06:28
 tags file:
   - "[[How with AI]]"
 ---

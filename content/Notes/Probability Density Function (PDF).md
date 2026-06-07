@@ -1,5 +1,9 @@
-2026-05-08 14:05
-Tags: [[Probability & Statistics]]
+---
+title: "Probability Density Function (PDF)"
+created: "2026-05-08 14:05"
+tags file:
+  - "[[Probability & Statistics]]"
+---
 ***
 
 ## 1. Definition

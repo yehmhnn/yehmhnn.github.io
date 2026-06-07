@@ -1,5 +1,8 @@
-2026-03-31 16:22
-Tags: 
+---
+title: "Coupling Layer"
+created: "2026-03-31 16:22"
+tags file:
+---
 ***
 
 Coupling layers are specific architectural blocks used in discrete Normalizing Flows (like RealNVP) to ensure the transformation is easily invertible and the Jacobian determinant is easy to compute. 

@@ -1,5 +1,10 @@
-2026-05-08 15:37
-Tags: [[Machine Learning]], [[Probability & Statistics]]
+---
+title: "Bayes' Theorem"
+created: "2026-05-08 15:37"
+tags file:
+  - "[[Machine Learning]]"
+  - "[[Probability & Statistics]]"
+---
 ***
 
 ## 1. The Formula

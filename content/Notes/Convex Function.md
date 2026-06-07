@@ -1,5 +1,8 @@
-2026-04-28 15:35
-Tags: 
+---
+title: "Convex Function"
+created: "2026-04-28 15:35"
+tags file:
+---
 ***
 In the context of optimization, a **convex function** is the "ideal" scenario.
 

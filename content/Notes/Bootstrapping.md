@@ -1,6 +1,6 @@
 ---
 title: Bootstrapping
-create: 2026-05-17 19:18
+created: 2026-05-17 19:18
 tags file:
   - "[[Probability & Statistics]]"
   - "[[Reinforcement Learning]]"

@@ -1,5 +1,10 @@
-2026-05-08 15:48
-Tags: [[Probability & Statistics]], [[Machine Learning]]
+---
+title: "Multivariate Gaussian Distribution"
+created: "2026-05-08 15:48"
+tags file:
+  - "[[Probability & Statistics]]"
+  - "[[Machine Learning]]"
+---
 ***
 
 ## 1. Definition

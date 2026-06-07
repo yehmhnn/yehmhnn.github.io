@@ -1,6 +1,6 @@
 ---
 title: Uncertainty Decomposition for Classification
-create: 2026-06-04 09:07
+created: 2026-06-04 09:07
 tags file:
   - "[[Scalable & Robust ML]]"
 ---

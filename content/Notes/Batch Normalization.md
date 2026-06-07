@@ -1,6 +1,6 @@
 ---
 title: "Batch Normalization"
-create: "2026-06-02 12:17"
+created: "2026-06-02 12:17"
 tags file:
 ---
 ### The Core Problem: Internal Covariate Shift

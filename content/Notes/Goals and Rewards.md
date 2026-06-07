@@ -1,6 +1,6 @@
 ---
 title: Goals and Rewards
-create: 2026-05-26 14:53
+created: 2026-05-26 14:53
 tags file:
   - "[[Reinforcement Learning]]"
 ---

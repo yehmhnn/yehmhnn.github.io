@@ -1,6 +1,6 @@
 ---
 title: Softmax
-create: 2026-05-12 15:11
+created: 2026-05-12 15:11
 tags file:
   - "[[Machine Learning]]"
 ---

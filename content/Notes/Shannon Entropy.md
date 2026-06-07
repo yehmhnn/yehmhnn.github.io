@@ -1,6 +1,6 @@
 ---
 title: Shannon entropy
-create: 2026-06-04 08:41
+created: 2026-06-04 08:41
 tags file:
   - "[[Machine Learning]]"
   - "[[Scalable & Robust ML]]"

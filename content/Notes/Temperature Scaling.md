@@ -1,6 +1,6 @@
 ---
 title: "Temperature Scaling"
-create: "2026-06-03 19:47"
+created: "2026-06-03 19:47"
 tags file:
 ---
 **Temperature Scaling** is a post-processing technique that modifies the sharpness or flatness of a probability distribution without altering the underlying choices or predictions.

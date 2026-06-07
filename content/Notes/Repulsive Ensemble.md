@@ -1,6 +1,6 @@
 ---
 title: Repulsive Ensemble
-create: 2026-06-04 12:39
+created: 2026-06-04 12:39
 tags file:
   - "[[Scalable & Robust ML]]"
 ---

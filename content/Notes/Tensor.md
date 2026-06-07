@@ -1,5 +1,9 @@
-2026-05-12 17:26
-Tags: [[Coding]]
+---
+title: Tensor
+created: "2026-05-12 17:26"
+tags file:
+  - [[Coding]]
+---
 ***
 
 A **Tensor** is the fundamental data structure of AI. It is a mathematical and hardware concept designed for high-performance computing.

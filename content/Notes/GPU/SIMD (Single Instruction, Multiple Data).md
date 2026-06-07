@@ -1,5 +1,9 @@
-2026-04-11 12:28
-Tags: [[GPU]]
+---
+title: "SIMD (Single Instruction, Multiple Data)"
+created: "2026-04-11 12:28"
+tags file:
+  - [[GPU]]
+---
 ***
 
 SIMD is a hardware execution model where a single control unit broadcasts one instruction to multiple processing elements (ALUs).

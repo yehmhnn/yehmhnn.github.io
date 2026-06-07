@@ -1,5 +1,9 @@
-2026-04-07 08:33
-Tags: [[GPU]]
+---
+title: "Bulk-Synchronous Parallel (BSP)"
+created: "2026-04-07 08:33"
+tags file:
+  - [[GPU]]
+---
 ***
 
 This is the "rhythm" of GPU execution. It consists of three repeating phases:

@@ -1,6 +1,6 @@
 ---
 title: "2025 ModernTCN Revisited - A Critical Look at the Experimental Setup in General Time Series Analysis"
-create: "2026-06-02 11:55"
+created: "2026-06-02 11:55"
 tags file:
 ---
 # Abstract & Key Takeaways

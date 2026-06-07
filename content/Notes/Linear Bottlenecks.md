@@ -1,6 +1,6 @@
 ---
 title: "Linear Bottlenecks"
-create: "2026-06-07 20:33"
+created: "2026-06-07 20:33"
 tags file:
 ---
 ## Concept

@@ -1,5 +1,9 @@
-2026-05-12 16:06
-Tags: [[Machine Learning]]
+---
+title: "Multinomial Logistic Regression (Softmax)"
+created: "2026-05-12 16:06"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 ## Definition

@@ -1,6 +1,6 @@
 ---
 title: The RL Problem
-create: 2026-05-11 14:10
+created: 2026-05-11 14:10
 tags file:
   - "[[Reinforcement Learning]]"
 ---

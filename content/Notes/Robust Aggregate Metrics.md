@@ -1,6 +1,6 @@
 ---
 title: "Robust Aggregate Metrics"
-create: "2026-05-17 21:07"
+created: "2026-05-17 21:07"
 tags file:
 ---
 ### The Core Problem: Why Mean and Median Fail

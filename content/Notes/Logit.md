@@ -1,6 +1,6 @@
 ---
 title: Logit
-create: 2026-05-12 15:55
+created: 2026-05-12 15:55
 tags file:
 ---
 **Logits** are the raw, unnormalized output values from the final linear layer of a classification model.

@@ -1,6 +1,6 @@
 ---
 title: Mathematical Framework
-create:
+created:
   - 2026-05-15 07:52
 tags file: "[[2021 Deep Reinforcement Learning at the Edge of the Statistical Precipice]]"
 ---

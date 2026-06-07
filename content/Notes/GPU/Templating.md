@@ -1,5 +1,9 @@
-2026-04-13 10:31
-Tags: [[GPU]]
+---
+title: Templating
+created: "2026-04-13 10:31"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## 1. Overview

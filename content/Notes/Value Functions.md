@@ -1,5 +1,9 @@
-2026-05-11 14:24
-Tags: [[Reinforcement Learning]]
+---
+title: "Value Functions"
+created: "2026-05-11 14:24"
+tags file:
+  - "[[Reinforcement Learning]]"
+---
 ***
 
 ## Definition

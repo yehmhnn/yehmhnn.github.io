@@ -1,6 +1,6 @@
 ---
 title: "Exploring Starts"
-create: "2026-05-26 19:59"
+created: "2026-05-26 19:59"
 tags file:
 ---
 ### How It Works

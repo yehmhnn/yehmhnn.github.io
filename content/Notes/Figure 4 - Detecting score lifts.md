@@ -1,6 +1,6 @@
 ---
 title: "Figure 4 - Detecting score lifts"
-create: "2026-05-17 14:27"
+created: "2026-05-17 14:27"
 tags file:
 ---
 ![[Pasted image 20260517143416.png|324]]

@@ -1,6 +1,6 @@
 ---
 title: "MoE"
-create: "2026-06-01 12:22"
+created: "2026-06-01 12:22"
 tags file:
 ---
 **MoE** stands for **Mixture-of-Experts**. It is a clever architectural design used in modern AI models to make them incredibly smart without requiring a supercomputer to run them.

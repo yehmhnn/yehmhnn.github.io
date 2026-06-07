@@ -1,5 +1,8 @@
-2026-04-28 11:42
-Tags: 
+---
+title: "2021 Problems and opportunities in training deep learning software systems - An analysis of variance"
+created: "2026-04-28 11:42"
+tags file:
+---
 
 Title: 
 Authors: Junkai Chen, Zeyu Sun, Wenjie Zhang, et al.

@@ -1,5 +1,9 @@
-2026-04-14 17:36
-Tags: [[GPU]]
+---
+title: "Branch Divergence"
+created: "2026-04-14 17:36"
+tags file:
+  - [[GPU]]
+---
 ***
 
 **Branch Divergence** is a hardware-level performance penalty that occurs when threads within a single **warp** (the fundamental scheduling unit of 32 threads) are forced to follow different execution paths due to a conditional branch, such as an `if-else` or `switch` statement.

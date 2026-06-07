@@ -1,5 +1,9 @@
-2026-04-13 10:41
-Tags: [[GPU]]
+---
+title: "Memory Coalescing"
+created: "2026-04-13 10:41"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## 1. The Definition

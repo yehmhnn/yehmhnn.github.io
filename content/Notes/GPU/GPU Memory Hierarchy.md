@@ -1,5 +1,9 @@
-2026-04-07 19:25
-Tags: [[GPU]]
+---
+title: "GPU Memory Hierarchy"
+created: "2026-04-07 19:25"
+tags file:
+  - [[GPU]]
+---
 ***
 ### On-SM Memory (Extremely Fast)
 

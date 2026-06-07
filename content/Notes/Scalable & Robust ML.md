@@ -1,6 +1,6 @@
 ---
 title: "Scalable & Robust ML"
-create: "2026-06-03 11:06"
+created: "2026-06-03 11:06"
 tags file:
 ---
 ## Ch 6 Uncertainty Quantification & Ensemble Methods

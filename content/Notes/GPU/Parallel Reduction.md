@@ -1,5 +1,9 @@
-2026-04-14 17:30
-Tags: [[GPU]]
+---
+title: "Parallel Reduction"
+created: "2026-04-14 17:30"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ## 1. The Goal

@@ -1,6 +1,6 @@
 ---
 title: "Performance Profiles"
-create: "2026-05-17 20:47"
+created: "2026-05-17 20:47"
 tags file:
 ---
 ### 1. The Core Problem: The Blind Spots of "Summary Statistics"

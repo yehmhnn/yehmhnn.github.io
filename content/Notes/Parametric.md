@@ -1,6 +1,6 @@
 ---
 title: parametric
-create: 2026-05-22 10:22
+created: 2026-05-22 10:22
 tags file:
   - "[[Machine Learning]]"
 ---

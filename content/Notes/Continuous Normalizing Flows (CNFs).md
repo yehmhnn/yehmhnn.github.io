@@ -1,5 +1,9 @@
-2026-03-31 14:37
-Tags: [[GNNs]]
+---
+title: "Continuous Normalizing Flows (CNFs)"
+created: "2026-03-31 14:37"
+tags file:
+  - [[GNNs]]
+---
 ***
 
 ### 1. The Core Mechanism

@@ -1,5 +1,9 @@
-2026-05-09 16:18
-Tags: [[Probability & Statistics]]
+---
+title: "Point Estimate"
+created: "2026-05-09 16:18"
+tags file:
+  - "[[Probability & Statistics]]"
+---
 ***
 
 In statistics, a **point estimate** is a single number used to represent a whole range of possibilities.

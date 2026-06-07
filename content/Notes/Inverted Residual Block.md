@@ -1,6 +1,6 @@
 ---
 title: "Inverted Residual Block"
-create: "2026-06-07 20:28"
+created: "2026-06-07 20:28"
 tags file:
 ---
 ## Concept

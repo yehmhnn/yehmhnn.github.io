@@ -1,6 +1,6 @@
 ---
 title: "Post-hoc OOD Scores"
-create: "2026-06-04 07:26"
+created: "2026-06-04 07:26"
 tags file:
 ---
 - [[Post-hoc]]

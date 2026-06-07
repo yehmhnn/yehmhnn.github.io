@@ -1,6 +1,6 @@
 ---
 title: Gaussian Process
-create: 2026-05-06 13:49
+created: 2026-05-06 13:49
 tags file:
   - "[[Machine Learning]]"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Monte Carlo Methods
-create: 2026-05-21 11:37
+created: 2026-05-21 11:37
 tags file:
   - "[[Reinforcement Learning]]"
 ---

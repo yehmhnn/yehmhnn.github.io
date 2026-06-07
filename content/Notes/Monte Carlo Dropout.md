@@ -1,6 +1,6 @@
 ---
 title: Monte Carlo Dropout
-create: 2026-06-03 11:10
+created: 2026-06-03 11:10
 tags file:
   - "[[Scalable & Robust ML]]"
 ---

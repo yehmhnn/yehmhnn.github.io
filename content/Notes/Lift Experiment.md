@@ -1,6 +1,6 @@
 ---
 title: "Lift Experiment"
-create: "2026-05-17 07:58"
+created: "2026-05-17 07:58"
 tags file:
 ---
 In data science and statistics, a **Lift Experiment** is a stress-test method used to find out how sensitive a statistical test or metric is.

@@ -1,6 +1,6 @@
 ---
 title: "Limitations"
-create: "2026-05-18 22:21"
+created: "2026-05-18 22:21"
 tags file:
 ---
 ### 1. The Safety Blind Spot: Discarding the Tail is Dangerous

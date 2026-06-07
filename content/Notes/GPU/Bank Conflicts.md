@@ -1,5 +1,9 @@
-2026-04-07 08:36
-Tags: [[GPU]]
+---
+title: "Bank Conflicts"
+created: "2026-04-07 08:36"
+tags file:
+  - [[GPU]]
+---
 ***
 
 In GPU architecture, Shared Memory is not one big solid block of RAM; it is divided into 32 equal-sized modules called Banks.

@@ -1,5 +1,9 @@
-2026-05-02 11:42
-Tags: [[Reinforcement Learning]]
+---
+title: "Markov Decision Processes (MDPs)"
+created: "2026-05-02 11:42"
+tags file:
+  - "[[Reinforcement Learning]]"
+---
 ***
 ### From [[Multi-arm Bandits]] to MDPs
 

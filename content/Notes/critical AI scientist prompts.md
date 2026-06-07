@@ -1,6 +1,6 @@
 ---
 title: critical AI scientist prompts
-create: 2026-05-25 17:27
+created: 2026-05-25 17:27
 tags file:
   - "[[How with AI]]"
 ---

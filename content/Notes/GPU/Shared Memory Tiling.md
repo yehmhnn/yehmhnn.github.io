@@ -1,5 +1,9 @@
-2026-04-07 08:30
-Tags: [[GPU]]
+---
+title: "Shared Memory Tiling"
+created: "2026-04-07 08:30"
+tags file:
+  - [[GPU]]
+---
 ***
 Tiling is a technique where a thread block cooperatively loads a sub-section of data into Shared Memory. 
 Its main benefit is reducing Global Memory traffic and increasing Arithmetic Intensity.

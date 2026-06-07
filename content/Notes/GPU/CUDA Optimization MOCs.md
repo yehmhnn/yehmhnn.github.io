@@ -1,5 +1,9 @@
-2026-04-07 19:30
-Tags: [[GPU]]
+---
+title: "CUDA Optimization MOCs"
+created: "2026-04-07 19:30"
+tags file:
+  - [[GPU]]
+---
 ***
 
 ### Data & Memory (The "Warehouse")

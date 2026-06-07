@@ -1,5 +1,9 @@
-2026-05-12 14:32
-Tags: [[Machine Learning]]
+---
+title: "Multiclass classification"
+created: "2026-05-12 14:32"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 - Problem: C>2

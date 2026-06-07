@@ -1,6 +1,6 @@
 ---
 title: "outlier"
-create: "2026-05-18 14:47"
+created: "2026-05-18 14:47"
 tags file:
 ---
 "In statistics, an **outlier** is a data point that differs significantly from other observations." 

@@ -1,6 +1,6 @@
 ---
 title: "Depthwise Separable Convolution"
-create: "2026-06-07 20:05"
+created: "2026-06-07 20:05"
 tags file:
 ---
 ## Concept

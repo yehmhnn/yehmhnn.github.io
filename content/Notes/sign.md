@@ -1,6 +1,6 @@
 ---
 title: sign
-create: 2026-05-21 14:39
+created: 2026-05-21 14:39
 tags file:
   - "[[Machine Learning]]"
 ---

@@ -1,5 +1,8 @@
-2026-04-28 15:14
-Tags: 
+---
+title: "2022 Reproducibility in Optimization - Theoretical Framework and Limits"
+created: "2026-04-28 15:14"
+tags file:
+---
 
 Title: 
 Authors: L. Guérard, O. Goudet, D. Gauthier, et al.

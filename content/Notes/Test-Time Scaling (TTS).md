@@ -1,5 +1,8 @@
-2026-05-07 16:45
-Tags: 
+---
+title: "Test-Time Scaling (TTS)"
+created: "2026-05-07 16:45"
+tags file:
+---
 ***
 
 **Test-Time Scaling** (also known as **Inference-Time Scaling** or **Inference Compute**) is a paradigm in machine learning where you allocate more computational power _during the generation phase_ (when the model is answering a prompt) to improve the quality of the final output.

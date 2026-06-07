@@ -1,5 +1,9 @@
-2026-05-06 18:59
-Tags: [[Machine Learning]]
+---
+title: "RBF Kernel"
+created: "2026-05-06 18:59"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 
 The RBF (Radial Basis Function) Kernel, also known as the Gaussian Kernel, is a mathematical function used to measure how "similar" two points are. 

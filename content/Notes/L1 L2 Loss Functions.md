@@ -1,5 +1,9 @@
-2026-05-06 12:36
-Tags: [[Machine Learning]]
+---
+title: "L1 L2 Loss Functions"
+created: "2026-05-06 12:36"
+tags file:
+  - "[[Machine Learning]]"
+---
 ***
 - **L1 Loss (MAE - Mean Absolute Error):**
     $$L_1 = \sum_{i=1}^{n} |y_i - f(x_i)|$$

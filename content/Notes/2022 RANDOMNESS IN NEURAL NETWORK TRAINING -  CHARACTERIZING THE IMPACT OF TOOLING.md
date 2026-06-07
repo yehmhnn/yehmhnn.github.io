@@ -1,5 +1,8 @@
-2026-04-28 11:57
-Tags: 
+---
+title: "2022 RANDOMNESS IN NEURAL NETWORK TRAINING -  CHARACTERIZING THE IMPACT OF TOOLING"
+created: "2026-04-28 11:57"
+tags file:
+---
 
 Title: 
 Authors: 
