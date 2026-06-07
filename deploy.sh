@@ -14,7 +14,7 @@ cp "/Users/yeh/Library/Mobile Documents/com~apple~CloudDocs/quartz_cloud/quartz.
 
 # 3. Clean the local build cache and push to GitHub
 echo "🚀 Publishing to GitHub..."
-npx quartz build
+# npx quartz build
 npx quartz sync
 
 echo "✅ Deployment finished successfully!"
