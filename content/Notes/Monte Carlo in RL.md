@@ -56,6 +56,6 @@ Because MC learns from experience, it faces a major hurdle: if the current polic
 1. **[[Exploring Starts]]:** 
 	- An idealized assumption where every single state-action pair has a non-zero probability of being selected as the absolute beginning step of an episode.
     
-2. **[[epsilon-Greedy Policies]]:** 
+2. **[[epsilon-Greedy]]:** 
 	- A realistic approach where the agent chooses the best action most of the time (with probability $1-\epsilon$) but reserves a small probability ($\epsilon$) to select a completely random action.
     

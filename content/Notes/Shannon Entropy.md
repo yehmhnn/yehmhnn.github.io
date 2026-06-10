@@ -41,4 +41,4 @@ To calculate the total predictive uncertainty in these architectures, you must a
 
 $$\mathbb{H}(y|x,D)=-\sum_{c=1}^{C}\left[\frac{1}{N}\sum_{n=1}^{N}p(y=c|x,w_{n})\cdot \log\left(\frac{1}{N}\sum_{n=1}^{N}p(y=c|x,w_{n})\right)\right]$$
 
-> 📊 **Role in Uncertainty Decomposition:** In advanced robust machine learning, this total Shannon Entropy serves as the starting baseline. By subtracting the internal data noise ([[Aleatoric Uncertainty]]/ Softmax Entropy), researchers isolate the system's structural lack of knowledge ([[Epistemic Uncertainty]] / Mutual Information) to determine if a model is processing out-of-domain data.
+> 📊 **Role in Uncertainty Decomposition:** In advanced robust machine learning, this total Shannon Entropy serves as the starting baseline. By subtracting the internal data noise ([[Aleatoric Uncertainty]]/ [[Softmax Entropy]]), researchers isolate the system's structural lack of knowledge ([[Epistemic Uncertainty]] / [[Mutual Information]]) to determine if a model is processing out-of-domain data.

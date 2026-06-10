@@ -1,5 +1,5 @@
 ---
-title: epsilon-Greedy Policies
+title: epsilon-Greedy
 created: 2026-05-26 19:57
 tags file:
   - "[[Reinforcement Learning]]"
@@ -17,9 +17,13 @@ Given a parameter $\epsilon \in (0, 1]$:
 
 Mathematically, the probability of selecting any action $a$ in state $s$ is:
 
-$$
-$1
-$$
+$$\pi(a \mid s) = \begin{cases}
+
+1 - \epsilon + \frac{\epsilon}{|\mathcal{A}(s)|} & \text{if } a \text{ is the greedy action} \
+
+\frac{\epsilon}{|\mathcal{A}(s)|} & \text{if } a \text{ is a non-greedy action}
+
+\end{cases}$$
 
 Where $|\mathcal{A}(s)|$ is the total number of actions available in state $s$.
 

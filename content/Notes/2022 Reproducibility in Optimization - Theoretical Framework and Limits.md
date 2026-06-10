@@ -30,7 +30,6 @@ What problem does the paper address and why is it important?
 - **Floating Point Errors:** How the tiny difference between $0.10000000000000001$ and $0.10000000000000002$ cascades over millions of iterations.
 
 # Method
-How did the authors conduct the research (e.g., experiments, case studies)?
 
 The authors use a heavy theoretical framework:
 

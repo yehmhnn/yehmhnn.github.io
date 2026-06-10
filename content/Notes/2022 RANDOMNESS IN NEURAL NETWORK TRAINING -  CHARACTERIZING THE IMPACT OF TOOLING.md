@@ -3,12 +3,6 @@ title: "2022 RANDOMNESS IN NEURAL NETWORK TRAINING -  CHARACTERIZING THE IMPACT 
 created: "2026-04-28 11:57"
 tags file:
 ---
-
-Title: 
-Authors: 
-Year: 
-Journal/Conference: 
-***
 # Abstract
 What are the main takeaways, answers to research questions, or new findings?
 

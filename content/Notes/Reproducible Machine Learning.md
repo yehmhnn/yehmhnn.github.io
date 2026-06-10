@@ -3,7 +3,6 @@ title: "Reproducible Machine Learning"
 created: "2026-04-14 11:30"
 tags file:
 ---
-***
 - Sources of Nondeterminism: 
 	- Implementation-Level
 		- [[2021 Problems and opportunities in training deep learning software systems - An analysis of variance]]
@@ -43,13 +42,13 @@ tags file:
 	- [[2025 ModernTCN Revisited - A Critical Look at the Experimental Setup in General Time Series Analysis]]
 	- [[2025 Benchmarking LLM Capabilities in Negotiation through Scorable Games]]
 
-|**Paper**|**The "Villain" (Main Focus)**|**Domain**|**Key Contribution**|
-|---|---|---|---|
-|**Reimers (2017)**|**The Random Seed**|NLP (LSTMs)|Proved that "seed mining" was creating fake SOTA results in NLP.|
-|**Analysis of Variance (2021)**|**General Variance**|Software Engineering|Systematic audit showing variance is a "software bug" across all of DL.|
-|**Crowded Valley (2021)**|**Optimizer Hype**|Optimization|Proved that tuning a baseline (Adam) is better than "novel" optimizers.|
-|**Tooling (2022)**|**The Hardware Stack**|System/Hardware|Isolated that GPUs (CUDA/cuDNN) add noise even if the seed is fixed.|
-|**Theory (2022)**|**Chaos & Precision**|Mathematics|Proved that bit-level rounding and chaos theory make 100% reproducibility impossible.|
+| **Paper**                       | **The "Villain" (Main Focus)** | **Domain**           | **Key Contribution**                                                                  |
+| ------------------------------- | ------------------------------ | -------------------- | ------------------------------------------------------------------------------------- |
+| **Reimers (2017)**              | **The Random Seed**            | NLP (LSTMs)          | Proved that "seed mining" was creating fake SOTA results in NLP.                      |
+| **Analysis of Variance (2021)** | **General Variance**           | Software Engineering | Systematic audit showing variance is a "software bug" across all of DL.               |
+| **Crowded Valley (2021)**       | **Optimizer Hype**             | Optimization         | Proved that tuning a baseline (Adam) is better than "novel" optimizers.               |
+| **Tooling (2022)**              | **The Hardware Stack**         | System/Hardware      | Isolated that GPUs (CUDA/cuDNN) add noise even if the seed is fixed.                  |
+| **Theory (2022)**               | **Chaos & Precision**          | Mathematics          | Proved that bit-level rounding and chaos theory make 100% reproducibility impossible. |
 
 ---
 # Reference
