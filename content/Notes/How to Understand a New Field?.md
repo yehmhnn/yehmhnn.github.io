@@ -4,10 +4,6 @@ created: 2026-06-11 15:40
 tags file:
   - "[[How with AI]]"
 ---
-To truly extract the core insights of a field—whether it’s behavioral economics, quantum computing, or Renaissance art—you have to look past the jargon and uncover its underlying mental models.
-
-To do this effectively, you can use a 4-part framework designed to strip a field down to its first principles and then map its boundaries.
-
 ## The 4-Part Field Analysis Framework
 
 ### 1. The Anatomy (Foundations & First Principles)

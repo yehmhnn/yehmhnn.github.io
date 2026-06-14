@@ -7,13 +7,16 @@ At its most fundamental level, a **World Model** is an AI’s internal understan
 
 ## 1. The Anatomy (Foundations & First Principles)
 
-- **Foundational Axioms:** The bedrock agreement across the entire field is that **Large Language Models (LLMs) are structurally blind to physical reality.** Text alone cannot teach an AI geometry, gravity, or spatial awareness. To achieve true autonomy (like autonomous driving or robotics), an AI must possess an internal simulator of the physical world.
+- **Foundational Axioms:** 
+	- The bedrock agreement across the entire field is that **Large Language Models (LLMs) are structurally blind to physical reality.** Text alone cannot teach an AI geometry, gravity, or spatial awareness. To achieve true autonomy (like autonomous driving or robotics), an AI must possess an internal simulator of the physical world.
     
     - _What if this is wrong?_ If the "scale maximalists" are right, and simply scaling next-token text/multimodal transformers _implicitly_ forces the AI to understand perfect physics anyway, then building dedicated world models is an expensive, over-engineered detour.
         
-- **The Core Problem:** Moving AI from _statistical correlation_ (predicting the next most likely word or pixel) to _causal understanding_ (predicting the actual physical consequence of an action).
+- **The Core Problem:** 
+	- Moving AI from _statistical correlation_ (predicting the next most likely word or pixel) to _causal understanding_ (predicting the actual physical consequence of an action).
     
-- **The Historical Catalyst:** The explosion of video generation models (like OpenAI's Sora) and the push for physical robotics. When video models started generating highly realistic movements, it sparked a crisis of definition: _Is the AI just painting pretty pixels, or does it actually understand the physics of the scene?_
+- **The Historical Catalyst:** 
+	- The explosion of video generation models (like OpenAI's Sora) and the push for physical robotics. When video models started generating highly realistic movements, it sparked a crisis of definition: _Is the AI just painting pretty pixels, or does it actually understand the physics of the scene?_
     
 
 ## 2. The Ecosystem (Mechanics & Dynamics)
@@ -36,18 +39,27 @@ At its most fundamental level, a **World Model** is an AI’s internal understan
 > 
 > This is the late-night argument fracturing the field.
 
-- **LeCun’s Argument:** If an AI tries to predict every single pixel of a tree blowing in the wind, it wastes 99% of its compute on irrelevant details. It should only model the _abstract concept_ (e.g., "the tree is blocking the road").
+- **LeCun’s Argument:** 
+	- If an AI tries to predict every single pixel of a tree blowing in the wind, it wastes 99% of its compute on irrelevant details. It should only model the _abstract concept_ (e.g., "the tree is blocking the road").
     
-- **Fan’s Argument:** Predicting pixels at massive scale is the only way to capture the messy, infinite nuances of real-world physics. Scale will smooth out the noise.
+- **Fan’s Argument:** 
+	- Predicting pixels at massive scale is the only way to capture the messy, infinite nuances of real-world physics. Scale will smooth out the noise.
     
-- **Li’s Argument:** Pure video simulation hallucinates and cheats. You need explicit, checkable 3D geometry (like collision meshes) so the AI can mathematically verify that two objects aren't clipping through each other.
+- **Li’s Argument:** 
+	- Pure video simulation hallucinates and cheats. You need explicit, checkable 3D geometry (like collision meshes) so the AI can mathematically verify that two objects aren't clipping through each other.
     
-- **The Shadow (Blind Spots):** Video simulators (NVIDIA) suffer from "hallucinated physics" where objects randomly morph or vanish. Latent models (Meta) are incredibly difficult to interpret or "look inside" because they don't render visual outputs. Geometric models (World Labs) are highly complex and difficult to scale seamlessly to open, unpredictable environments.
+- **The Shadow (Blind Spots):** 
+	- Video simulators (NVIDIA) suffer from "hallucinated physics" where objects randomly morph or vanish. 
+	- Latent models (Meta) are incredibly difficult to interpret or "look inside" because they don't render visual outputs. 
+	- Geometric models (World Labs) are highly complex and difficult to scale seamlessly to open, unpredictable environments.
     
 
 ## 4. The Frontier (Future & Evolution)
 
-- **Where the "Puck" is Moving:** The smartest minds are migrating toward **Embodied AI**. The ultimate goal isn't just to have an AI look at a video, but to have a robot use these world models to navigate a physical kitchen or factory floor.
+- **Where the "Puck" is Moving:** 
+	- The smartest minds are migrating toward **Embodied AI**. 
+	- The ultimate goal isn't just to have an AI look at a video, but to have a robot use these world models to navigate a physical kitchen or factory floor.
     
-- **Adjacent Disruptions:** The collision of **Hollywood Special Effects (Computer Graphics/Gaming Engines)** and AI. Technologies like Unreal Engine, NeRFs, and 3D Gaussian Splatting are no longer just for video games—they are becoming the training grounds and architectural skeletons for the next generation of AI world models.
+- **Adjacent Disruptions:** 
+	- The collision of **Hollywood Special Effects (Computer Graphics/Gaming Engines)** and AI. Technologies like Unreal Engine, NeRFs, and 3D Gaussian Splatting are no longer just for video games—they are becoming the training grounds and architectural skeletons for the next generation of AI world models.
     
