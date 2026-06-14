@@ -43,7 +43,10 @@ Instead of keeping a massive list of all returns, the value function is updated 
 
 $$V(S_t) \leftarrow V(S_t) + \alpha [G_t - V(S_t)]$$
 
-Where $\alpha$ is a constant step-size parameter, and $G_t$ is the actual target return from time step $t$.
+Where
+- $\alpha$ is a constant step-size parameter
+- $G_t$ is the actual target return from time step $t$.
+	- $G_t = \sum_{k=0}^{\infty} \gamma^k R_{t+k+1}$
 
 ## MC Control (Finding Optimal Policies)
 

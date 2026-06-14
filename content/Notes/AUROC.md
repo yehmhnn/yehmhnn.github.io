@@ -14,7 +14,9 @@ In the context of machine learning and uncertainty estimation, it measures how g
         
     - An AUROC of **0.5** means the model is performing no better than a random coin toss.
 
-How it Works: The ROC Curve
+---
+
+# How it Works: The ROC Curve
 
 The AUROC is calculated by finding the area underneath the ROC (Receiver Operating Characteristic) curve.
 

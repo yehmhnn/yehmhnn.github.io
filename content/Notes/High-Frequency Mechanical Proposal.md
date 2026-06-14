@@ -5,22 +5,32 @@ tags file:
   - "[[Flow Matching]]"
   - "[[2025 FLOW MATCHING WITH GAUSSIAN PROCESS PRIORS FOR PROBABILISTIC TIME SERIES FORECASTING]]"
 ---
-## 1. Optimal Datasets for Generative Forecasting (and Why)
+- datasets choosing (VBL, SUBF, CWRU, Ottawa)
+	- identify which dataset is better by looking into their frequency domain
+	- Steps:
+		- **Multi-Format Loader:** Built one function to read both `.mat` and `.csv` vibration datasets.
+	    
+		- **DC Clean-up:** Subtracted the mean to remove the 0 Hz spike.
+		    
+		- **FFT vs. Welch:** Compared raw FFT against Welch PSD to reduce noise variance.
+		    
+		- **Smoothing & Peaks:** Swept Gaussian filter sizes ($\sigma$) and used a Hz-based distance to pick the top peaks.
+		    
+		- **Batch Averaging:** Interpolated different file lengths onto a uniform frequency grid (0 to 5000 Hz) to calculate group averages.
 
-To predict mechanical vibration evolution using generative models like Flow Matching with Gaussian Process (GP) priors, you must move away from static diagnostic data and use **Run-to-Failure Accelerated Degradation Datasets**.
+theoratically, gaussian process scale cubically, so it can't solve high frequency problem
+verify if that is true or not
 
-### Recommended Benchmarks
+1. Flow-matching ->  VBL,  SUBF Dataset. (frequency doesnt change during time)
 
-- **PRONOSTIA (FEMTO-ST) Bearing Dataset:** The global benchmark for accelerated bearing degradation under varying loads and speeds (Dhungana, 2025).
-    
-- **IMS (Intelligent Maintenance Systems) Bearing Dataset:** Contains long-term continuous degradation runs over several days, capturing real-world wear-out trends (Magadán et al., 2023).
-    
-- **XJTU-SY Bearing Dataset:** Provides complete life-cycle vibration data across multiple operational profiles, perfect for verifying cross-task robustness (Magadán et al., 2023).
-    
+2. TimesNet ->  VBL,  SUBF Dataset. (frequency doesnt change during time)
 
-### Why These Datasets Fit Your Model
+3. Flow-matching -> Ottawa Dataset ([https://data.mendeley.com/datasets/v43hmbwxpm/1](https://data.mendeley.com/datasets/v43hmbwxpm/1)) - (frequency change)
 
-These datasets don't just show a fault; they capture the continuous, non-linear, and non-stationary **health degradation trajectory** (Ayman et al., 2025). This macroscopic temporal progression perfectly aligns with what GP priors are designed to capture: smooth, evolving long-term covariance structures.
+4. TimesNet -> Ottawa Dataset - (frequency change)
+
+
+---
 
 ## 2. The Dataset Mismatch: Why CWRU Fails
 

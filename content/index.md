@@ -18,6 +18,6 @@ Tags:
 [[Reproducible Machine Learning]]
 [[Process Reward Modeling]]
 [[GPU]] [[CUDA Optimization MOCs]]
-[[ML System MOCs]]
+[[ML System]]
 [[Machine Learning]]
 [[How with AI]]

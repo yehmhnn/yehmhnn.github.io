@@ -3,7 +3,7 @@ title: "knowledge"
 created: "2026-06-06 07:33"
 tags file:
 ---
-What is knowledge? It is one of those questions that seems incredibly simple until you actually try to pin it down. Philosophers have been arguing about it for millennia, but we can break it down into a few core concepts that bridge the gap between abstract philosophy and everyday life.
+What is knowledge? It is one of those questions that seems incredibly simple until I actually try to pin it down. Philosophers have been arguing about it for millennia, but we can break it down into a few core concepts that bridge the gap between abstract philosophy and everyday life.
 
 ## 1. The Classic Definition: Justified True Belief
 

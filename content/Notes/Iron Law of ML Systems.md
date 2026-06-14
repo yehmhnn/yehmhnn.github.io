@@ -2,7 +2,7 @@
 title: Iron Law of ML Systems
 created: 2026-06-02 14:45
 tags file:
-  - "[[ML System MOCs]]"
+  - "[[ML System]]"
 ---
 $$
 T = \underbrace{\frac{\text{Data}(D_{\text{vol}})}{\text{Bandwidth}(\text{BW})}}_{\text{The Data Term}} + \underbrace{\frac{\text{Ops}(O)}{\text{Peak}(R_{\text{peak}}) \times \text{Efficiency}(\eta_{\text{hw}})}}_{\text{The Compute Term}} + \underbrace{\text{Overhead}(L_{\text{lat}})}_{\text{The Latency Term}}
@@ -64,7 +64,7 @@ $$\text{Time}_{\text{latency}} = L_{\text{lat}}$$
 
 - [[Roofline Model]]
     
-- `[[Arithmetic Intensity]]`
+- [[Arithmetic Intensity]]
     
 - `[[Model FLOPs Utilization (MFU)]]`
     

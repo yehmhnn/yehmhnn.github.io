@@ -4,8 +4,6 @@ created: "2026-05-08 15:16"
 tags file:
   - "[[Machine Learning]]"
 ---
-***
-
 Mathematically, they are expressed by the same functional form: $P(x \mid \theta)$. The difference lies in **what you are holding constant** and **what you are varying**. They refer to two different directions of the same equation.
 
 ---
@@ -70,7 +68,3 @@ In advanced modeling—like the **generative models** used in computer vision—
 > If you are asking "How likely is it that my model is correct?", you are talking about **Likelihood**.
 > 
 > If you are asking "How likely is it that this event will happen?", you are talking about **Probability**.
-
-
----
-# Reference

@@ -5,8 +5,6 @@ tags file:
   - "[[Machine Learning]]"
   - "[[Probability & Statistics]]"
 ---
-***
-
 ## 1. The Formula
 
 Bayes' Theorem provides a principled way to update beliefs based on new evidence.
@@ -52,6 +50,3 @@ In machine learning, we often ignore $P(x)$ because it's constant for a given da
 
 
 related note: [[Likelihood vs. Probability]]
-
----
-# Reference

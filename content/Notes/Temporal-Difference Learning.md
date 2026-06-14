@@ -58,16 +58,6 @@ $$
 - **The Core Mechanism:** If $\delta_t > 0$, the transition turned out better than expected, so $V(S_t)$ is adjusted upward. If $\delta_t < 0$, it was worse, and $V(S_t)$ is adjusted downward.
     
 - **Neuroscience Link:** In computational neuroscience, spiking patterns of dopamine neurons in the brain have been shown to map almost perfectly to this mathematical TD error signal.
-    
-
-## Comparison: TD vs. Monte Carlo
-
-|**Dimension**|**Monte Carlo (MC)**|**Temporal-Difference (TD)**|
-|---|---|---|
-|**Update Frequency**|**End of Episode:** Must wait until a terminal state is reached to compute the total return $G_t$.|**Step-by-Step:** Updates online after every single action taken ($S_t \to A_t \to R_{t+1} \to S_{t+1}$).|
-|**Task Compatibility**|Strictly limited to **episodic tasks**.|Works flawlessly on both **episodic** and **continuing tasks**.|
-|**Bias / Variance**|**Zero Bias, High Variance:** Estimates are mathematically true to experience, but highly sensitive to random events across long trajectories.|**High Bias, Low Variance:** Relies on an initial guess (bias), but fluctuations are small because it updates based on single-step intervals.|
-|**Data Efficiency**|Often requires more data to stabilize due to high variance.|Typically converges faster than MC in practice by capitalizing on step-level feedback.|
 
 
 ## The Spectrum of RL Foundations
@@ -80,6 +70,7 @@ Sutton & Barto contextualize TD by comparing how information flows across the th
     
 3. **Temporal-Difference:** Explores single trajectories using real experience; **and** relies on bootstrapping to update step-by-step.
     
+related note: [[TD vs. Monte Carlo]]
 
 ## Connections
 

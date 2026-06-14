@@ -20,7 +20,7 @@ course: Harvard CS249r / MLSysBook
 - Ch 7: ML Frameworks
 - Ch 8: Model Training
 ## Part 3: Optimization
-- Ch 9: Data Selection
+- Ch 9: [[Data Selection]]
 - Ch 10: Model Compression
 - Ch 11: Hardware Acceleration
 - Ch 12: Benchmarking

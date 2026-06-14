@@ -1,8 +1,8 @@
 ---
-title: "Roofline Model"
-created: "2026-04-10 13:24"
+title: Roofline Model
+created: 2026-04-10 13:24
 tags file:
-  - [[GPU]]
+  - "[[GPU]]"
 ---
 ***
 
@@ -16,7 +16,7 @@ Answer the question: **"Am I limited by how fast I can do math, or how fast I ca
 
 The model is a log-log plot with two distinct "roof" sections:
 
-- **X-Axis:** Arithmetic Intensity (FLOP/Byte).
+- **X-Axis:** [[Arithmetic Intensity]] (FLOP/Byte).
 - **Y-Axis:** Performance (GFLOP/s).
 
 |**Component**|**Decided By**|**Mental Model**|
@@ -80,6 +80,3 @@ $$P = \min(\text{Peak GFLOPS}, \text{Peak Bandwidth} \times I)$$
 > - **Moving RIGHT:** Change the algorithm to do more work per byte of data loaded (e.g., increase data reuse via Tiling).
 >     
 
-
----
-# Reference
