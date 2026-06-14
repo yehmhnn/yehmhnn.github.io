@@ -14,10 +14,9 @@ where concepts intersect, notes evolve, and [[knowledge]] compounds over time.
 ---
 
 Tags:
-[[Reinforcement Learning]]
-[[Reproducible Machine Learning]]
-[[Process Reward Modeling]]
-[[GPU]] [[CUDA Optimization MOCs]]
-[[ML System]]
-[[Machine Learning]]
-[[How with AI]]
+[[ML System]]  
+[[Reinforcement Learning]] [[Machine Learning]]  
+[[Reproducible Machine Learning]] [[Process Reward Modeling]]  
+[[GPU]] [[CUDA Optimization MOCs]]  
+[[How with AI]]  
+[[Table Talk]]

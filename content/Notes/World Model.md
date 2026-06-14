@@ -1,7 +1,8 @@
 ---
-title: "World Model"
-created: "2026-06-13 20:22"
+title: World Model
+created: 2026-06-13 20:22
 tags file:
+  - "[[Table Talk]]"
 ---
 At its most fundamental level, a **World Model** is an AI’s internal understanding of physical reality. It’s the computational equivalent of "common sense"—knowing that if you drop a glass, it will fall and shatter; or if a car drives behind a bus, it hasn't ceased to exist.
 

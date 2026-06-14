@@ -1,7 +1,8 @@
 ---
-title: "x86 vs. ARM"
-created: "2026-06-13 18:58"
+title: x86 vs. ARM
+created: 2026-06-13 18:58
 tags file:
+  - "[[Table Talk]]"
 ---
 The computing landscape has undergone a massive architectural shift. The historic rivalry between x86 and ARM has evolved from a smartphone-versus-PC debate into a full-scale battle across laptops, data centers, and AI factories.
 

@@ -1,7 +1,8 @@
 ---
-title: "Next-Generation Aerospace & Orbital Infrastructure"
-created: "2026-06-14 17:47"
+title: Next-Generation Aerospace & Orbital Infrastructure
+created: 2026-06-14 17:47
 tags file:
+  - "[[Table Talk]]"
 ---
 related note: [[Satellite Internet - Why Fiber Isn't Enough]]
 

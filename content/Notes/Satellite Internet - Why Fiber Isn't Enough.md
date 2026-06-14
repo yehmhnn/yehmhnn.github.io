@@ -2,6 +2,7 @@
 title: Satellite Internet - Why Fiber Isn't Enough
 created: 2026-06-14 18:22
 tags file:
+  - "[[Table Talk]]"
 ---
 related note: [[Next-Generation Aerospace & Orbital Infrastructure]]
 
@@ -98,11 +99,15 @@ The defining clash in the industry is **Sovereign Fragmented Networks vs. Border
 
 ### Where the "Puck" is Moving
 
-The brightest minds in the sector are hyper-focused on **Direct-to-Cell (D2C) Architecture and Space Edge Computing**. The industry is actively shifting away from requiring a dedicated satellite dish on your roof. Instead, next-generation satellites are being equipped with massive, ultra-sensitive antennas capable of communicating directly with standard, unmodified smartphones already in people's pockets. Simultaneously, companies are putting data centers _into_ orbit, allowing satellites to run complex AI models and process raw telemetry data on the edge before wasting precious bandwidth beaming it down to Earth.
+The brightest minds in the sector are hyper-focused on **Direct-to-Cell (D2C) Architecture and Space Edge Computing**. 
+- The industry is actively shifting away from requiring a dedicated satellite dish on your roof. Instead, next-generation satellites are being equipped with massive, ultra-sensitive antennas capable of communicating directly with standard, unmodified smartphones already in people's pockets. 
+- Simultaneously, companies are putting data centers _into_ orbit, allowing satellites to run complex AI models and process raw telemetry data on the edge before wasting precious bandwidth beaming it down to Earth.
 
 ### Adjacent Disruptors
 
-- **Multi-Orbit Hybridization:** Legacy geostationary (GEO) satellite giants are aggressively acquiring or partnering with LEO operators. The future is a unified, software-defined network that automatically swaps your connection between a local 5G tower, a fast LEO satellite, or a massive high-altitude GEO satellite depending on your exact real-time bandwidth needs.
+- **Multi-Orbit Hybridization:** 
+	- Legacy geostationary (GEO) satellite giants are aggressively acquiring or partnering with LEO operators. 
+	- The future is a unified, software-defined network that automatically swaps your connection between a local 5G tower, a fast LEO satellite, or a massive high-altitude GEO satellite depending on your exact real-time bandwidth needs.
     
 - **Geopolitical Trade War Spillover:** Orbital infrastructure is turning into a proxy battleground for global tech dominance. Sanctions, spectrum jamming, and the weaponization of satellite access in conflict zones are forcing the discipline to evolve from a purely technical telecommunications problem into a complex, high-stakes geopolitical defense game.
     

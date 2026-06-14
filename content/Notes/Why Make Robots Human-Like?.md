@@ -1,7 +1,8 @@
 ---
-title: "Why Make Robots Human-Like?"
-created: "2026-06-11 15:37"
+title: Why Make Robots Human-Like?
+created: 2026-06-11 15:37
 tags file:
+  - "[[Table Talk]]"
 ---
 If you look at car factories, warehouses, or even your own living room (like a robotic vacuum), most robots look nothing like humans. They are designed as mechanical arms, boxes on wheels, or drones because those shapes are far more efficient, stable, and easier to build for specific tasks.
 
