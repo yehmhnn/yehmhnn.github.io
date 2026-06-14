@@ -3,6 +3,8 @@ title: "Next-Generation Aerospace & Orbital Infrastructure"
 created: "2026-06-14 17:47"
 tags file:
 ---
+related note: [[Satellite Internet - Why Fiber Isn't Enough]]
+
 ## 1. The Anatomy (Foundations & First Principles)
 
 ### Foundational Axioms
