@@ -159,6 +159,53 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
               }
             })
 
+            // Extract and process any links in the 'tags file' frontmatter
+            const tagsFileRaw = file.data.frontmatter?.["tags file"]
+            if (tagsFileRaw) {
+              const regex = /\[\[([^\]|#\n]+)(#[^\]|]*)?(?:\|([^\]\n]+))?\]\]/g
+              const processString = (str: string) => {
+                if (str.includes("[[")) {
+                  let match
+                  regex.lastIndex = 0
+                  while ((match = regex.exec(str)) !== null) {
+                    const target = match[1].trim()
+                    const dest = transformLink(file.data.slug!, target, transformOptions)
+                    const url = new URL(dest, "https://base.com/" + stripSlashes(curSlug, true))
+                    let [destCanonical, _destAnchor] = splitAnchor(url.pathname)
+                    if (destCanonical.endsWith("/")) {
+                      destCanonical += "index"
+                    }
+                    const full = decodeURIComponent(stripSlashes(destCanonical, true)) as FullSlug
+                    const simple = simplifySlug(full)
+                    outgoing.add(simple)
+                  }
+                } else {
+                  const target = str.trim()
+                  if (target) {
+                    const dest = transformLink(file.data.slug!, target, transformOptions)
+                    const url = new URL(dest, "https://base.com/" + stripSlashes(curSlug, true))
+                    let [destCanonical, _destAnchor] = splitAnchor(url.pathname)
+                    if (destCanonical.endsWith("/")) {
+                      destCanonical += "index"
+                    }
+                    const full = decodeURIComponent(stripSlashes(destCanonical, true)) as FullSlug
+                    const simple = simplifySlug(full)
+                    outgoing.add(simple)
+                  }
+                }
+              }
+
+              if (Array.isArray(tagsFileRaw)) {
+                for (const item of tagsFileRaw) {
+                  if (typeof item === "string") {
+                    processString(item)
+                  }
+                }
+              } else if (typeof tagsFileRaw === "string") {
+                processString(tagsFileRaw)
+              }
+            }
+
             file.data.links = [...outgoing]
           }
         },

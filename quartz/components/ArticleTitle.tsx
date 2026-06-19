@@ -14,6 +14,12 @@ ArticleTitle.css = `
 .article-title {
   margin: 2rem 0 0 0;
 }
+.flex-component:has(.article-title) {
+  margin-top: 2rem;
+}
+.flex-component:has(.article-title) .article-title {
+  margin-top: 0;
+}
 `
 
 export default (() => ArticleTitle) satisfies QuartzComponentConstructor
