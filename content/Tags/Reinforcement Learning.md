@@ -3,9 +3,7 @@ title: "Reinforcement Learning"
 created: "2026-04-16 11:34"
 tags file:
 ---
-***
-
-## Foundations
+# Foundations
 
 - [[The RL Problem]]: Agent-Environment Interaction
     
@@ -22,7 +20,7 @@ tags file:
 
 ---
 
-## Part I: Tabular Solution Methods
+# Part I: Tabular Solution Methods
 
 _Small state spaces where we can store values in a table._
 
@@ -68,9 +66,21 @@ _Small state spaces where we can store values in a table._
 
 ---
 
-## Part II: Approximate Solution Methods
+# Part II: Approximate Solution Methods
 
 _Scaling to large/continuous state spaces using Function Approximation._
+
+- [[From Tables to Approximation]]
+
+On-policy Approximation of Action Value
+
+- [[Value Prediction with Function Approximation]]
+- [[Gradient-Descent Methods]]
+- [[Policy Gradient Theorem]]
+
+9.3 Linear Methods . . . . . . . . . . . . . . . . . . . . . . . . . . 232
+9.4 Control with Function Approximation . . . . . . . . . . . . . . 241
+9.5 Should We Bootstrap?
 
 - [[On-policy Prediction with Approximation]]
     
@@ -83,13 +93,16 @@ _Scaling to large/continuous state spaces using Function Approximation._
 - [[Policy Gradient Methods]]:
     
     - [[REINFORCE]]: The Policy Gradient Theorem
+	    - [[REINFORCE with Baseline]]
         
     - [[Actor-Critic Methods]]: Combining value and policy gradients
+
+	- [[Proximal Policy Optimization (PPO)]]
         
 
 ---
 
-## Part III: Looking Deeper
+# Part III: Looking Deeper
 
 - [[Psychology & Neuroscience of RL]]: Dopamine as TD-error
     
@@ -100,3 +113,4 @@ _Scaling to large/continuous state spaces using Function Approximation._
 
 ---
 # Reference
+https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf

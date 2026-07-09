@@ -4,8 +4,6 @@ created: "2026-05-11 14:24"
 tags file:
   - "[[Reinforcement Learning]]"
 ---
-***
-
 ## Definition
 
 Value functions are functions of states (or state-action pairs) that estimate how "good" it is for the agent to be in a given state. This "goodness" is defined in terms of the **expected return**—the total reward an agent can expect to accumulate over the future, starting from that state.
@@ -16,7 +14,9 @@ Value functions are functions of states (or state-action pairs) that estimate ho
 
 The value of a state $s$ under a policy $\pi$, denoted as $v_\pi(s)$, is the expected return when starting in $s$ and following $\pi$ thereafter.
 
-$$v_\pi(s) \doteq \mathbb{E}_\pi [G_t | S_t = s] = \mathbb{E}_\pi \left[ \sum_{k=0}^{\infty} \gamma^k R_{t+k+1} \mid S_t = s \right]$$
+$$
+v_\pi(s) \doteq \mathbb{E}_\pi [G_t | S_t = s] = \mathbb{E}_\pi \left[ \sum_{k=0}^{\infty} \gamma^k R_{t+k+1} \mid S_t = s \right]
+$$
 
 - **Role:** Evaluates the desirability of being in a specific state.
     
@@ -29,11 +29,15 @@ $$v_\pi(s) \doteq \mathbb{E}_\pi [G_t | S_t = s] = \mathbb{E}_\pi \left[ \sum_{k
 
 The value of taking action $a$ in state $s$ under a policy $\pi$, denoted as $q_\pi(s, a)$, is the expected return starting from $s$, taking action $a$, and thereafter following policy $\pi$.
 
-$$q_\pi(s, a) \doteq \mathbb{E}_\pi [G_t | S_t = s, A_t = a] = \mathbb{E}_\pi \left[ \sum_{k=0}^{\infty} \gamma^k R_{t+k+1} \mid S_t = s, A_t = a \right]$$
+$$
+q_\pi(s, a) \doteq \mathbb{E}_\pi [G_t | S_t = s, A_t = a] = \mathbb{E}_\pi \left[ \sum_{k=0}^{\infty} \gamma^k R_{t+k+1} \mid S_t = s, A_t = a \right]
+$$
+
+(Capital letters ($S_t, A_t$) represent the _abstract random variables_ (the slot machine placeholders for whatever state and action happen at time $t$). Lowercase letters ($s, a$) represent the _specific, concrete values_ you are plugged into. It literally reads: _"The expected return given that the random state variable happens to equal specific state $s$."_)
 
 - **Role:** Directly informs the agent which action is superior in a given state.
     
-- **Significance:** Most model-free algorithms (like Q-Learning) focus on estimating $q$ because it allows for action selection without knowing the environment's transition probabilities ($p$).
+- **Significance:** Most model-free algorithms (like [[Q-Learning]]) focus on estimating $q$ because it allows for action selection without knowing the environment's transition probabilities ($p$).
     
 
 ---

@@ -4,7 +4,6 @@ created: "2026-04-27 17:21"
 tags file:
   - "[[Reinforcement Learning]]"
 ---
-***
 ### Definition
 
 A bandit problem is a simplified RL setting where actions do not affect future states or rewards. It isolates the **Exploration-Exploitation dilemma**.
@@ -45,5 +44,3 @@ Imagine you are playing a slot machine.
 - Non-Stationary: The casino owner slowly tightens or loosens the machine's gears every hour. What was a "good" machine at 9:00 AM might be a "bad" one by noon.
 ```
 
----
-# Reference

@@ -22,6 +22,7 @@ course: Harvard CS249r / MLSysBook
 ## Part 3: Optimization
 - Ch 9: [[Data Selection]]
 - Ch 10: Model Compression
+	- [[Quantization]]
 - Ch 11: Hardware Acceleration
 - Ch 12: Benchmarking
 ## Part 4: Deployment

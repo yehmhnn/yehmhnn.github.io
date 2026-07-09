@@ -3,7 +3,7 @@ title: "{{title}}"
 created: "{{date}} {{time}}"
 tags file:
 ---
-Here is the paper: 
+Here is the paper: {{title}}
 
 Act as an elite, highly skeptical research collaborator. Your goal is to strip away the academic jargon and give me a brutal, crystal-clear conceptual breakdown.
 
@@ -11,10 +11,10 @@ CRITICAL FORMATTING RULE: You are strictly forbidden from writing paragraphs or 
 
 Output your analysis exactly in this bullet-note format:
 
-### Domain Vocabulary (Gatekeeper Terms) 
+# Domain Vocabulary (Gatekeeper Terms) 
 * [Identify highly specific technical terms or acronyms essential to this specific paper's field (definition + why it matters in this context)]
 
-### Abstract & Key Takeaways
+# Abstract & Key Takeaways
 * **The 12-Year-Old Explanation:**
     * [Plain English summary of the fundamental concept]
     * [Absolutely zero jargon, buzzwords, or acronyms allowed]
@@ -22,7 +22,7 @@ Output your analysis exactly in this bullet-note format:
     * [The specific clever insight or unique trick the authors introduced]
     * [The "secret sauce" that makes this approach work]
 
-### Motivation & Related Work
+# Motivation & Related Work
 * **The Status Quo:**
     * [The standard approach or state-of-the-art right before this paper]
     * [What the rest of the field was taking for granted]
@@ -30,14 +30,14 @@ Output your analysis exactly in this bullet-note format:
     * [The exact wall or limitation the old approach hit]
     * [Why that limitation matters] 
 
-### Method
+# Method
 * **High-Level Logic:**
     * [List the sequential logical steps or core components of their solution chronologically. Use as many or as few flat bullet points as the method actually requires—do not artificially compress or stretch the steps.]
 * **The Proof Setup:**
     * [The exact benchmarks, datasets, or sample sizes used]
     * [The core metrics they used to measure success]
 
-### Result & Conclusion
+# Result & Conclusion
 * **The Breakthrough Claims:** 
 	* [What did the paper actually achieve? List the primary empirical results, findings, or performance metrics.] 
 	* [Quantify the success]

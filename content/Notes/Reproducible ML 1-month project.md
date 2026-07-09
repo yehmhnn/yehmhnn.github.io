@@ -115,7 +115,7 @@ You are not inventing the calculator (`rliable`), nor are you digging up the raw
 
 ### 1. The Core Engines: PPO and SAC (Algorithms)
 
-These are **Proximal Policy Optimization (PPO)** and **Soft Actor-Critic (SAC)**. They are not software programs; they are mathematical blueprints (algorithms) that tell an AI agent how to learn from trial and error.
+These are **[[Proximal Policy Optimization (PPO)]]** and **Soft Actor-Critic (SAC)**. They are not software programs; they are mathematical blueprints (algorithms) that tell an AI agent how to learn from trial and error.
 
 - **PPO** is like a reliable, fuel-efficient sedan. It is stable, works well across many different tasks (like games or robotics), and is the default choice for most researchers.
     

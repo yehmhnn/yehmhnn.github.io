@@ -4,9 +4,7 @@ created: 2026-06-17 17:44
 tags file:
   - "[[Reinforcement Learning]]"
 ---
-In reinforcement learning, the distinction between **on-policy** and **off-policy** methods comes down to **which policy the agent is evaluating and improving** versus **which policy it is actually using to move through the environment**.
-
-### Off-Policy Learning: "Learning from observing"
+Off-Policy Learning: "Learning from observing"
 
 In off-policy methods, the agent learns about the value of an optimal target policy, while potentially following a different, more exploratory behavior policy.
 

@@ -4,9 +4,7 @@ created: 2026-06-11 15:40
 tags file:
   - "[[How with AI]]"
 ---
-## The 4-Part Field Analysis Framework
-
-### 1. The Anatomy (Foundations & First Principles)
+# 1. The Anatomy (Foundations & First Principles)
 
 Before you can understand the advanced insights, you need to know the baseline truths that the entire field is built upon. These questions locate the bedrock.
 
@@ -19,7 +17,7 @@ Before you can understand the advanced insights, you need to know the baseline t
 - **Conceptual Source:** Derived from _First Principles Thinking_ (Aristotle & Physics)—deconstructing a domain to its foundational, undeniable truths rather than reasoning by analogy or precedent.
     
 
-### 2. The Ecosystem (Mechanics & Dynamics)
+# 2. The Ecosystem (Mechanics & Dynamics)
 
 This is about understanding how the field actually operates in reality, who holds the power, and how information flows.
 
@@ -32,7 +30,7 @@ This is about understanding how the field actually operates in reality, who hold
 - **Conceptual Source:** Derived from _Systems Thinking & Stakeholder Mapping_ (Ecology & Corporate Strategy)—treating an industry or discipline as an interconnected ecosystem governed by hidden incentives and power dynamics.
     
 
-### 3. The Friction (Debates & Limitations)
+# 3. The Friction (Debates & Limitations)
 
 You don't truly understand a field until you know what its practitioners are arguing about late at night. The insights live in the friction.
 
@@ -45,7 +43,7 @@ You don't truly understand a field until you know what its practitioners are arg
 - **Conceptual Source:** Derived from _Hegelian Dialectics_ (Philosophy) & _The Theory of Constraints_ (Operations Management)—recognizing that evolution occurs when competing ideas clash, and breakthroughs happen by solving the system's tightest bottleneck.
     
 
-### 4. The Frontier (Future & Evolution)
+# 4. The Frontier (Future & Evolution)
 
 Finally, you look at the trajectory. A field is a movie, not a photograph; you need to see where the plot is going.
 

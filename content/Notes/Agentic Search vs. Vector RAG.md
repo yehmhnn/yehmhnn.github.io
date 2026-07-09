@@ -3,7 +3,7 @@ title: "Agentic Search vs. Vector RAG"
 created: "2026-06-09 16:12"
 tags file:
 ---
-## The Backstory: From [[Vector DB]] to Grep
+## The Backstory: From [[Vector Database]] to Grep
 
 When Anthropic was building Claude Code, the initial engineering instinct was to follow the industry standard: chunk the repository, generate embeddings, throw them into a local vector database, and use semantic search to fetch relevant code blocks.
 

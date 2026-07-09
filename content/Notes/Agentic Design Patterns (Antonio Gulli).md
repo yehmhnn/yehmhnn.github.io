@@ -8,7 +8,12 @@ This is a practical book authored by Antonio Gulli, a veteran tech leader at Goo
 I am creating this Map of Content (MOC) to break down the text's 21 core patterns into atomic notes so I can easily digest the architectural layout of modern intelligent systems.
 
 ---
-### Part One: Core Orchestration Foundations
+# Introduction
+
+- [[4 levels of Agent complexity]]
+- [[5 Future AI Agent Hypotheses]]
+
+# Part One: Core Orchestration Foundations
 
 - **[[Prompt Chaining]]**
     
@@ -39,7 +44,7 @@ I am creating this Map of Content (MOC) to break down the text's 21 core pattern
     > _Atomic Concept:_ Splitting complex operations across an ecosystem of separate, specialized persona agents (e.g., Writer, Fact-Checker, Developer) who collaborate through defined workflows.
     
 
-### Part Two: Memory, Adaptation & Protocols
+# Part Two: Memory, Adaptation & Protocols
 
 - **[[Memory Management]]**
     
@@ -58,7 +63,7 @@ I am creating this Map of Content (MOC) to break down the text's 21 core pattern
     > _Atomic Concept:_ Feeding high-level boundaries and semantic intents to an agent while maintaining external programmatic loops to verify that autonomous drift does not decouple from the root objective.
     
 
-### Part Three: Resilience & Knowledge Integration
+# Part Three: Resilience & Knowledge Integration
 
 - **[[Exception Handling and Recovery]]**
     
@@ -73,7 +78,7 @@ I am creating this Map of Content (MOC) to break down the text's 21 core pattern
     > _Atomic Concept:_ Augmenting agent context by semantically indexing, fetching, and embedding domain-specific documentation to ground the model’s reasoning in factual, real-time ground truth.
     
 
-### Part Four: Advanced Enterprise Operations
+# Part Four: Advanced Enterprise Operations
 
 - **[[Inter-Agent Communication (A2A)]]**
     
