@@ -4,7 +4,7 @@ created: "2026-06-04 07:26"
 tags file:
 ---
 - [[Post-hoc]]
-- [[OOD]]
+- [[Out-of-Domain]]
 
 When true probabilistic modeling is too computationally expensive, simple post-hoc deterministic scores are used to identify out-of-domain data:
 

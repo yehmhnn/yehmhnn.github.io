@@ -1,8 +1,8 @@
 ---
-title: "Likelihood vs. Probability"
-created: "2026-05-08 15:16"
+title: Likelihood vs. Probability
+created: 2026-05-08 15:16
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 Mathematically, they are expressed by the same functional form: $P(x \mid \theta)$. The difference lies in **what you are holding constant** and **what you are varying**. They refer to two different directions of the same equation.
 

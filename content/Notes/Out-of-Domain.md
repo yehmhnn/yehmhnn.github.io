@@ -1,8 +1,10 @@
 ---
-title: OOD
+title: Out-of-Domain
 created: 2026-06-03 19:36
 tags file:
   - "[[Scalable & Robust ML]]"
+aliases:
+  - OOD
 ---
 **OOD** stands for **Out-of-Domain** (or Out-of-Distribution) data.
 

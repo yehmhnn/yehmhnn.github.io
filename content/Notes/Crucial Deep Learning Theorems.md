@@ -2,7 +2,7 @@
 title: Crucial Deep Learning Theorems
 created: 2026-05-28 15:02
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ### Theorem 1: Linear Collapse
 

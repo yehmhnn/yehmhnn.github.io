@@ -26,10 +26,10 @@ This is **On-Policy vs. Off-Policy**. It asks: Does the policy being evaluated a
 
 # The 2x2 RL Matrix
 
-| -                                            | **On-Policy (Evaluates actual behavior )**                                                                                  | **Off-Policy (Evaluates a target/greedy policy )**                                                                   |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Model-Free** (No environment model )       | **SARSA**<br><br>Learns step-by-step from its own active, exploratory trajectories.                                         | **Q-Learning**<br><br>Learns the optimal path from raw data, even while acting randomly.                             |
-| **Model-Based** (Uses an environment model ) | **Policy Iteration (DP)**<br><br>Uses a known model to calculate the exact mathematical value of a specific, active policy. | **Value Iteration (DP) / Dyna-Q**<br><br>Uses a model to plan and evaluate the absolute best greedy targets offline. |
+| -                                            | **On-Policy (Evaluates actual behavior )**                                                                                  | **Off-Policy (Evaluates a target/greedy policy )**                                                                       |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Model-Free** (No environment model )       | **[[SARSA]]**<br><br>Learns step-by-step from its own active, exploratory trajectories.                                     | **[[Q-Learning]]**<br><br>Learns the optimal path from raw data, even while acting randomly.                             |
+| **Model-Based** (Uses an environment model ) | **Policy Iteration (DP)**<br><br>Uses a known model to calculate the exact mathematical value of a specific, active policy. | **Value Iteration (DP) / [[Dyna-Q]]**<br><br>Uses a model to plan and evaluate the absolute best greedy targets offline. |
 
 ### A Simple Unified Analogy
 

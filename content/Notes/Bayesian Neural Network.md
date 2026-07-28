@@ -15,7 +15,7 @@ Conversely, a BNN treats every single weight and parameter as a **probability di
 
 ### Why Use Bayesian Neural Networks?
 
-Classical neural networks are naturally overconfident and lack the inherent ability to say **"I don't know"** when given corrupted, ambiguous, or Out-of-Domain ([[OOD]]) data.
+Classical neural networks are naturally overconfident and lack the inherent ability to say **"I don't know"** when given corrupted, ambiguous, or Out-of-Domain ([[Out-of-Domain]]) data.
 
 BNNs solve this by providing rigorous **Uncertainty Quantification**. BNNs allow you to isolate and measure two distinct types of uncertainty:
 1. [[Aleatoric Uncertainty]]

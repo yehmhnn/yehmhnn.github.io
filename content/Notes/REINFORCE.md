@@ -48,6 +48,10 @@ Here is exactly what each mathematical component is doing to change the agent's 
 	
 - **$G_t$**: This acts as the throttle. If the return $G_t$ is highly positive, it multiplies the gradient, aggressively forcing the network to make that action much more probable in the future. If the return is low or negative, the adjustment is small or reversed, discouraging the action.
 
+**Key Property: Softmax Shift Invariance & Zero-Sum Updates** 
+For softmax policies, preference updates form a zero-sum game: increasing the chosen action's preference automatically decreases all other actions' preferences by an equal total amount.
+_Read more:_ [[Softmax Policy Gradient Properties]]
+
 ## Additional Insights
 
 ### A Direct Comparison: Q-Learning vs. REINFORCE

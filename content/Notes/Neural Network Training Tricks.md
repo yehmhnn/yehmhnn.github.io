@@ -2,7 +2,7 @@
 title: Neural Network Training Tricks
 created: 2026-05-28 15:44
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ## 1. Learning Rate Schedules
 

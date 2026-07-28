@@ -2,7 +2,7 @@
 title: False Positive Rate
 created: 2026-06-09 17:15
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 The False Positive Rate (FPR) is the probability of incorrectly classifying a truly negative event as a positive one. It acts as a measure of "false alarms" and is directly tied to your test's specificity: [[Specificity]] = 1 - FPR.
 

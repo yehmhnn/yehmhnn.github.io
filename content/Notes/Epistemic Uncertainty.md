@@ -2,7 +2,7 @@
 title: Epistemic Uncertainty
 created: 2026-06-03 13:32
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
   - "[[Scalable & Robust ML]]"
 ---
 - **Definition:** 
@@ -12,4 +12,4 @@ tags file:
 	- **Decreases** when provided with more training data or when switching to a better-suited model architecture.
     
 - **Common Sources:** 
-	- [[OOD]] data that the model has never encountered during training.
+	- [[Out-of-Domain]] data that the model has never encountered during training.

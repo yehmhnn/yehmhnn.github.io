@@ -2,7 +2,7 @@
 title: Backpropagation
 created: 2026-05-28 15:20
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ## 1. The Mathematics of Error Backpropagation
 

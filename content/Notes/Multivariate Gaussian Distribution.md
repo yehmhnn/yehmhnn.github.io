@@ -1,9 +1,9 @@
 ---
-title: "Multivariate Gaussian Distribution"
-created: "2026-05-08 15:48"
+title: Multivariate Gaussian Distribution
+created: 2026-05-08 15:48
 tags file:
   - "[[Probability & Statistics]]"
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

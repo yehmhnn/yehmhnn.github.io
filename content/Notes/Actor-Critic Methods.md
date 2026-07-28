@@ -124,3 +124,4 @@ To truly understand Actor-Critic, it helps to see it placed between the two trad
 The biggest Achilles' heel of Actor-Critic methods is **training instability**. Because the Actor and the Critic are learning at the same time, they are effectively trying to catch a moving target.
 
 If the Actor changes its strategy too drastically, the Critic’s old knowledge becomes useless. Conversely, if the Critic makes a poor evaluation, it might provide bad feedback to the Actor, destroying a perfectly good strategy. If these two networks fall out of sync, it can trigger a feedback loop of bad learning, causing the AI's performance to suddenly collapse mid-training. Advanced variations (like [[Proximal Policy Optimization (PPO)]] or TRPO) were specifically invented to limit how much the Actor can change in a single update to prevent this exact issue.
+

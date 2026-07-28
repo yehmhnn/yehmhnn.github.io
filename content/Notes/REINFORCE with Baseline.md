@@ -46,7 +46,7 @@ $$
 
 - If this value is **negative**, the action performed worse than average.
 
-- **Note:** We can mathematically subtract any action-independent baseline here because of the [[Baseline Identity (Policy Gradient)]], which guarantees this alteration won't introduce bias into our gradient direction.
+- **Note:** We can mathematically subtract any action-independent baseline here because of the [[Baseline Identity (Policy Gradient)]], which guarantees this alteration won't introduce bias into our gradient direction. (same mean)
 
 ### 4. Updating the Policy Parameters
 
@@ -70,6 +70,8 @@ Simultaneously, the baseline function $b(s_t)$—which is typically modeled as a
 ## Additional Insights
 
 ### A Direct Comparison: REINFORCE vs. REINFORCE with Baseline
+
+![[Pasted image 20260709085019.png|475]]
 
 Imagine you are a student taking a series of exams:
 

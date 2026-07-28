@@ -5,7 +5,7 @@ tags file:
 ---
 ### How It Works
 
-Under the **Monte Carlo ES** framework, the environment is artificially forced to start each episode at a randomly selected state-action pair, where every possible pair $(s, a) \in \mathcal{S} \times \mathcal{A}$ has a probability greater than zero of being chosen as the absolute first step.
+Under the **Monte Carlo Exploring Starts (ES)** framework, the environment is artificially forced to start each episode at a randomly selected state-action pair, where every possible pair $(s, a) \in \mathcal{S} \times \mathcal{A}$ has a probability greater than zero of being chosen as the absolute first step.
 
 1. **Step 0:** Select a starting state $S_0$ and a starting action $A_0$ completely at random.
     

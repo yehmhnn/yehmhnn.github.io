@@ -2,7 +2,7 @@
 title: Shannon entropy
 created: 2026-06-04 08:41
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
   - "[[Scalable & Robust ML]]"
 ---
 **Shannon Entropy**, originally introduced by Claude E. Shannon in 1948, is a foundational concept in information theory used to quantify the average amount of uncertainty, surprise, or information contained within a random variable.

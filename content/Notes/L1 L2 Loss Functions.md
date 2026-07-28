@@ -1,8 +1,8 @@
 ---
-title: "L1 L2 Loss Functions"
-created: "2026-05-06 12:36"
+title: L1 L2 Loss Functions
+created: 2026-05-06 12:36
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 - **L1 Loss (MAE - Mean Absolute Error):**

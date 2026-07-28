@@ -4,8 +4,6 @@ created: "2026-05-07 12:45"
 tags file:
   - "[[Reinforcement Learning]]"
 ---
-***
-
 In Reinforcement Learning (RL), **Policy Iteration** and **Value Iteration** are the two fundamental Dynamic Programming algorithms used to solve Markov Decision Processes (MDPs) when the model of the environment is fully known.
 
 The primary difference lies in how they reach the optimal policy: 
@@ -66,5 +64,3 @@ Once the value function $V$ converges to the optimal $V^*$, the optimal policy $
 - **Use Value Iteration** if the state space is large. Since it avoids the full evaluation step, it is generally more computationally efficient per iteration. In many practical scenarios, Value Iteration is the preferred choice because the "max" operator naturally drives the values toward the optimum faster than full policy evaluation.
 
 
----
-# Reference

@@ -2,7 +2,7 @@
 title: parametric
 created: 2026-05-22 10:22
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ## Core Definition
 

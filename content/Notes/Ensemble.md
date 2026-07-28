@@ -2,7 +2,7 @@
 title: Ensemble
 created: 2026-06-03 11:12
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 In machine learning, an **ensemble** is a technique that combines the predictions of multiple individual models (often referred to as base learners or ensemble members) to generate a single, more robust output.
 

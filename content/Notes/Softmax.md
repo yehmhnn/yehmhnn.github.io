@@ -2,7 +2,7 @@
 title: Softmax
 created: 2026-05-12 15:11
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ### Definition
 

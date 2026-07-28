@@ -12,6 +12,7 @@ Temporal-difference (TD) learning combines two ideas:
 
 - [[Dynamic Programming]]: bootstrap — update toward an estimate based on other estimates.
 
+[[Theoretical Foundations of TD]]
 ### The DP / MC / TD Taxonomy
 
 All three methodologies aim to estimate the same mathematical object, the true value function $v_{\pi}(s) = \mathbb{E}_{\pi}[G_{t}|S_{t}=s]$ , but they differ entirely in how they approximate that expectation:
@@ -54,6 +55,10 @@ $$
 \delta_t \doteq R_{t+1} + \gamma V(S_{t+1}) - V(S_t)
 $$
 
+| **Name in Equation** | **Mathematical Term**         | **What it Represents Conceptually**            | **Temporal Placement**       |
+| -------------------- | ----------------------------- | ---------------------------------------------- | ---------------------------- |
+| **The Prediction**   | $V(S_t)$                      | The guess you want to update and fix.          | **Present** (Time step $t$)  |
+| **The Target**       | $R_{t+1} + \gamma V(S_{t+1})$ | The newer, better guess used as the benchmark. | **Future** (Time step $t+1$) |
 ### Key Insights:
 
 - **The Core Mechanism:** If $\delta_t > 0$, the transition turned out better than expected, so $V(S_t)$ is adjusted upward. If $\delta_t < 0$, it was worse, and $V(S_t)$ is adjusted downward.

@@ -2,7 +2,7 @@
 title: Layer Types
 created: 2026-05-28 14:43
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 A **Fully Connected Network (FCN)**—or Multilayer Perceptron (MLP)—is built by stacking layers where every neuron in one stage connects to every neuron in the next. Structurally, it is divided into three main stages: **Input**, **Hidden Blocks**, and **Output**.
 

@@ -10,9 +10,11 @@ The Policy Gradient Theorem is a mathematical rule that calculates exactly how t
 
 ## Why It Is Important (Why)
 
-- In reinforcement learning, whenever you change an AI's strategy (policy), it changes the actions it takes, which completely alters its entire future trajectory through the environment. 
-- Theoretically, calculating how to improve a policy should require a highly complex derivative of the environment's future state distribution. 
-- The Policy Gradient Theorem solves this massive mathematical roadblock by proving that this complex distribution derivative completely cancels out of the final equation, allowing us to compute perfect updates using only the plain state visitation counts and standard action-values.
+- In reinforcement learning, whenever you change an AI's strategy (policy), it changes the actions it takes, which completely alters its future trajectory through the environment. 
+
+- Theoretically, calculating how to improve a policy should require computing $\nabla \eta(s)$—a highly complex derivative showing how policy tweaks alter future state visitations. This would require knowing the environment's internal transition physics.
+
+- The Policy Gradient Theorem solves this massive roadblock by proving that $\nabla \eta(s)$ completely cancels out of the math! Because $q_\pi(s,a)$ already captures the entire infinite-horizon cascade of future rewards, we only need the plain state visitations $\eta(s)$ alongside standard action-values.
 
 ## How It Works (How)
 
@@ -42,6 +44,14 @@ $$
 ### 2. **Unroll the Futurity:** 
 
 The problem with that second term ($\nabla q_{\pi}(s,a)$) is that it looks forward into the future. To evaluate it, we substitute the definition of $q_\pi$, which reveals that the gradient of an action's value is just the discounted gradient of the _next_ state's value: ([[Bellman Equations]])
+
+**Differentiate $q_\pi(s, a)$:** Expand using the Bellman expectation equation:
+
+$$
+q_\pi(s, a) = \sum_{s'} p(s' \mid s, a) \left( r(s, a, s') + \gamma v_\pi(s') \right)
+$$
+
+Since environment dynamics $p(s' \mid s, a)$ and rewards $r(s, a, s')$ do not depend on $\theta$:
 
 $$
 \nabla q_{\pi}(s,a) = \gamma \sum_{s'} p(s'|s,a) \nabla v_{\pi}(s')

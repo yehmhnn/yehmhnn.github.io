@@ -27,6 +27,7 @@ _Small state spaces where we can store values in a table._
 ### 1. Fundamentals
 
 - [[Multi-arm Bandits]]: Exploration vs. Exploitation
+	- [[Gradient Bandit]]
     
 - [[Dynamic Programming]]: Policy Iteration & Value Iteration
     
@@ -44,6 +45,8 @@ _Small state spaces where we can store values in a table._
 	    - [[Double Q-Learning]]
         
 - [[n-step Bootstrapping]]: Bridging TD and Monte Carlo
+	- [[n-step SARSA]]
+	- [[n-step Off-policy Learning]]
     
 | **Method**     | **Target Type**    | **Policy** | **Sensitivity**                |
 | -------------- | ------------------ | ---------- | ------------------------------ |
@@ -60,7 +63,6 @@ _Small state spaces where we can store values in a table._
 ### 3. Planning & Unified View
 
 - [[Dyna-Q]]: Integrating learning, planning, and reacting
-    
 - [[Prioritized Sweeping]]
     
 
@@ -75,20 +77,14 @@ _Scaling to large/continuous state spaces using Function Approximation._
 On-policy Approximation of Action Value
 
 - [[Value Prediction with Function Approximation]]
-- [[Gradient-Descent Methods]]
 - [[Policy Gradient Theorem]]
+	- [[REINFORCE]]
+	- [[REINFORCE with Baseline]]
+- [[Linear Function Approximation]]: [[Tile Coding]] and Radial Basis Functions
 
-9.3 Linear Methods . . . . . . . . . . . . . . . . . . . . . . . . . . 232
 9.4 Control with Function Approximation . . . . . . . . . . . . . . 241
 9.5 Should We Bootstrap?
 
-- [[On-policy Prediction with Approximation]]
-    
-- [[Linear Function Approximation]]: Tile Coding and Radial Basis Functions
-    
-- [[Deep Q-Networks (DQN)]]: Neural networks as function approximators
-    
-- [[Eligibility Traces]]: The $TD(\lambda)$ mechanism
     
 - [[Policy Gradient Methods]]:
     
@@ -99,6 +95,13 @@ On-policy Approximation of Action Value
 
 	- [[Proximal Policy Optimization (PPO)]]
         
+
+10 Oﬀ-policy Approximation of Action Values 255
+
+11 Policy Approximation 257
+	11.1 Actor–Critic Methods . . . . . . . . . . . . . . . . . . . . . . . 257
+	11.2 Eligibility Traces for Actor–Critic Methods . . . . . . . . . . . 259
+	11.3 R-Learning and the Average-Reward Setting . . . . . . . . . . 260
 
 ---
 

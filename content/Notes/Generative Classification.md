@@ -1,8 +1,8 @@
 ---
-title: "Generative Classification"
-created: "2026-05-08 16:08"
+title: Generative Classification
+created: 2026-05-08 16:08
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

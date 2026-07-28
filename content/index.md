@@ -15,7 +15,7 @@ where concepts intersect, notes evolve, and [[knowledge]] compounds over time.
 
 Tags:  
 [[ML System]]  
-[[Reinforcement Learning]] [[Machine Learning]]  
+[[Reinforcement Learning]] [[Machine Learning Essentials]]  
 [[Reproducible Machine Learning]] [[Process Reward Modeling]]  
 [[GPU]] [[CUDA Optimization MOCs]]  
 [[How with AI]]  

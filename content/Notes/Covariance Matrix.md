@@ -1,8 +1,8 @@
 ---
-title: "Covariance Matrix"
-created: "2026-05-06 19:03"
+title: Covariance Matrix
+created: 2026-05-06 19:03
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

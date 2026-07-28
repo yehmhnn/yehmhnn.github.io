@@ -22,11 +22,17 @@ For every state-action pair, the agent maintains a counter, $\tau(s, a)$, which 
 
 ### Step 2: The Curiosity-Infused Simulated Update
 
-When the agent pauses to run its $N$ planning steps in its head, it queries its internal model for a random state ($s$) and action ($a$). However, instead of updating its knowledge base using just the memorized reward ($R$), it appends a **curiosity bonus** based on how long it has ignored that action.
+When the agent runs its simulated planning steps, it pulls a random state $s$ and action $a$ from its model memory . However, it replaces the standard recorded reward $\hat{r}(s,a)$ with an augmented **exploration bonus target** $r^+(s,a)$ :
 
-The integrated Q-learning update formula for Dyna-Q+ planning is:
+$$
+r^{+}(s,a) = \hat{r}(s,a) + \kappa \sqrt{\tau(s,a)}
+$$
 
-$$Q(s, a) \leftarrow Q(s, a) + \alpha \left[ (R + \kappa \sqrt{\tau(s, a)}) + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]$$
+This modified reward is plugged directly into the standard Q-planning update rule :
+
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha \left[ \Big( \hat{r}(s,a) + \kappa \sqrt{\tau(s,a)} \Big) + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]
+$$
 
 > **What is happening here:** The longer an action is ignored, the larger $\tau$ grows, and the larger the artificial reward bonus ($\kappa \sqrt{\tau}$) becomes. In the agent's mind, an unvisited path starts looking incredibly attractive. If this hallucinated bonus is high enough, it trickles into the agent's real-world strategy, forcing it to go investigate that path in real life.
 
@@ -45,18 +51,28 @@ $$Q(s, a) \leftarrow Q(s, a) + \alpha \left[ (R + \kappa \sqrt{\tau(s, a)}) + \g
 - **$\gamma$ (Gamma)**: The discount factor for future rewards.
     
 - **$\max_{a'} Q(s', a')$**: The maximum predicted value of the next state.
+
+
+> 💡 **Why Use a Square Root ($\sqrt{\tau}$)?**
+> 
+> Sutton and Barto chose a square root instead of a linear counter ($\kappa \cdot \tau$) to achieve two critical mathematical balances:
+> 
+> 1. **Unbounded Growth (Long-term Guarantee):** Because $\lim_{\tau \to \infty} \sqrt{\tau} = \infty$, the bonus can grow infinitely large. This mathematically guarantees that no matter how bad the agent _thinks_ an action is, if it ignores it for long enough, the bonus will eventually become massive enough to override any finite value disadvantage and force a re-test.
+>     
+> 2. **Sublinear / Diminishing Growth (Short-term Stability):** The square root function is concave, meaning it grows rapidly at the beginning but flattens out over time. If the bonus grew linearly, short absences would trigger frantic, hyper-aggressive over-exploration, causing the agent to constantly drop its optimal, high-reward routines to check on minor things. The square root dampens early panic while still maintaining the long-term exploration safety net.
+>
     
 ---
 
 ## Additional Insights
 
-### A Direct Comparison: Dyna-Q vs. Dyna-Q+
+### A Direct Comparison: [[Dyna-Q]] vs. Dyna-Q+
 
-|**Feature**|**Dyna-Q**|**Dyna-Q+**|
-|---|---|---|
-|**Environment Fit**|Ideal for fixed, unchanging environments.|Ideal for non-stationary, changing environments.|
-|**Exploration Strategy**|Relies entirely on $\epsilon$-greedy exploration in the real world.|Uses an explicit, time-based curiosity bonus during simulated planning.|
-|**Handling Untried Actions**|Ignored during planning if never experienced.|Actively allowed during planning, initialized with a high curiosity potential to prompt discovery.|
+| **Feature**                  | **Dyna-Q**                                                          | **Dyna-Q+**                                                                                        |
+| ---------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Environment Fit**          | Ideal for fixed, unchanging environments.                           | Ideal for non-stationary, changing environments.                                                   |
+| **Exploration Strategy**     | Relies entirely on $\epsilon$-greedy exploration in the real world. | Uses an explicit, time-based curiosity bonus during simulated planning.                            |
+| **Handling Untried Actions** | Ignored during planning if never experienced.                       | Actively allowed during planning, initialized with a high curiosity potential to prompt discovery. |
 
 ### A Concrete Example: The Shortcut Maze
 

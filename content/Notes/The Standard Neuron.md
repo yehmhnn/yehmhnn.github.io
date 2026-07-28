@@ -2,7 +2,7 @@
 title: The Standard Neuron
 created: 2026-05-28 15:09
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 A neural network consists of many simple processing units (neurons) collaborating in parallel (within a layer) and in series (between layers).
 

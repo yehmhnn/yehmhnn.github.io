@@ -1,8 +1,8 @@
 ---
-title: "Cross-Entropy Loss"
-created: "2026-05-12 14:58"
+title: Cross-Entropy Loss
+created: 2026-05-12 14:58
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

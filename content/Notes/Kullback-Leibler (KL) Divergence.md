@@ -1,11 +1,9 @@
 ---
-title: "Kullback-Leibler (KL) Divergence"
-created: "2026-05-12 15:13"
+title: Kullback-Leibler (KL) Divergence
+created: 2026-05-12 15:13
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
-***
-
 ### Definition
 
 **KL Divergence** (also called Relative Entropy) measures how one probability distribution $Q$ diverges from a second, expected probability distribution $P$. It quantifies the "information loss" when $Q$ is used to approximate $P$.
@@ -43,7 +41,3 @@ $$D_{KL}(P \parallel Q) = \sum_{x \in \mathcal{X}} P(x) \log \left( \frac{P(x)}{
 - **Loss Functions:** Maximizing Likelihood is equivalent to minimizing the KL divergence between the empirical distribution of the data and the model distribution.
     
 - **Generative Flows:** Used as a training objective to ensure the transformed distribution matches the target distribution.
-
-
----
-# Reference

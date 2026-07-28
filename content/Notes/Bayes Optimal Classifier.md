@@ -1,8 +1,8 @@
 ---
-title: "Bayes Optimal Classifier"
-created: "2026-05-12 15:27"
+title: Bayes Optimal Classifier
+created: 2026-05-12 15:27
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

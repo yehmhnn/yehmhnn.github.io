@@ -1,8 +1,8 @@
 ---
-title: "Discriminative Classification"
-created: "2026-05-08 16:17"
+title: Discriminative Classification
+created: 2026-05-08 16:17
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

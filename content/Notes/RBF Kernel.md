@@ -1,11 +1,9 @@
 ---
-title: "RBF Kernel"
-created: "2026-05-06 18:59"
+title: RBF Kernel
+created: 2026-05-06 18:59
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
-***
-
 The RBF (Radial Basis Function) Kernel, also known as the Gaussian Kernel, is a mathematical function used to measure how "similar" two points are. 
 
 Commonly used in [[Support Vector Machines (SVM)]]
@@ -42,6 +40,3 @@ This is the most important part for your TSFlow project. It dictates the "wiggli
     
 - **Long Length-scale (Large $\ell$):** The "friendship" lasts a long time. A point at $t=10$ still influences a point at $t=100$. Result: **Very smooth, slow-moving waves.**
 
-
----
-# Reference

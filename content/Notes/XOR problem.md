@@ -2,7 +2,7 @@
 title: XOR problem
 created: 2026-05-28 15:11
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 Historically, it was proven that a single-layer linear classifier **cannot solve the non-linear XOR problem**. A neural network requires at least **2 layers** to map this non-linear decision boundary.
 

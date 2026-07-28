@@ -1,8 +1,8 @@
 ---
-title: "Multiclass classification"
-created: "2026-05-12 14:32"
+title: Multiclass classification
+created: 2026-05-12 14:32
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

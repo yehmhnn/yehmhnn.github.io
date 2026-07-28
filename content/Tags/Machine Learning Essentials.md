@@ -1,5 +1,5 @@
 ---
-title: Machine Learning
+title: Machine Learning Essentials
 created: 2026-05-06 12:35
 tags file:
 ---

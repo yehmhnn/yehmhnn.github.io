@@ -2,7 +2,7 @@
 title: True Positive Rate
 created: 2026-06-09 17:08
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 The True Positive Rate (TPR), also known as sensitivity, recall, or probability of detection, measures the proportion of actual positive cases a model or test correctly identifies. It is a vital metric in statistics, machine learning, and medical diagnostics to evaluate a system's accuracy and effectiveness.
 

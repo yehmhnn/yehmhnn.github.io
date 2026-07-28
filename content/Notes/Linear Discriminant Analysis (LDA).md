@@ -1,8 +1,8 @@
 ---
-title: "Linear Discriminant Analysis (LDA)"
-created: "2026-05-07 14:22"
+title: Linear Discriminant Analysis (LDA)
+created: 2026-05-07 14:22
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

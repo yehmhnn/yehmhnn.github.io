@@ -1,8 +1,8 @@
 ---
-title: "Logistic Regression"
-created: "2026-05-07 14:41"
+title: Logistic Regression
+created: 2026-05-07 14:41
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

@@ -1,8 +1,8 @@
 ---
-title: "Multinomial Logistic Regression (Softmax)"
-created: "2026-05-12 16:06"
+title: Multinomial Logistic Regression (Softmax)
+created: 2026-05-12 16:06
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

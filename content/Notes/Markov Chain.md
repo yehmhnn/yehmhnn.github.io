@@ -3,66 +3,91 @@ title: "Markov Chain"
 created: "2026-06-23 14:42"
 tags file:
 ---
-A **Markov chain** is a mathematical system that transitions from one state (a situation or condition) to another according to specific probabilistic rules.
+## The Definition (What)
 
-The defining feature of a Markov chain is that it is **memoryless**. This means that the probability of moving to the next state depends _only_ on the current state, and not on the sequence of events that came before it. This behavior is known as the **Markov Property**.
+A Markov Chain is a mathematical model that describes a sequence of possible events where the probability of transitioning to the next state depends solely on the current state, completely ignoring past history.
 
-> **The Frog Analogy:** Imagine a frog jumping between lily pads. If the frog is on Lily Pad A, its next jump depends entirely on where Lily Pad A is located and how close the other pads are. It doesn't matter if the frog spent the last hour on Lily Pad B, C, or D; its immediate future move is determined solely by its present location.
+## Why It Is Important (Why)
 
-## Core Components of a Markov Chain
+Real-world dynamic systems are often too complex to model if every future prediction requires tracking their entire history of past actions. Markov Chains solve this memory bottleneck by introducing the **Markov Property** (memorylessness), drastically simplifying predictions and enabling efficient modeling of stochastic processes in physics, finance, text generation, and algorithms like Google's PageRank or [[Markov Chain Monte Carlo|MCMC]].
 
-To build or understand a Markov chain, you need three main pieces:
+## How It Works (How)
 
-- **States ($S$):** The distinct conditions or scenarios the system can be in. For example, if you are modeling the weather, your states might be `[Sunny, Rainy, Cloudy]`.
+A Markov Chain models a system jumping between discrete states according to fixed probabilistic transition rules.
+
+### Phase 1: The Memoryless Rule (The Markov Property)
+
+The foundational rule of a Markov Chain is that given the present state $X_t$, the future state $X_{t+1}$ is conditionally independent of all past states $(X_0, X_1, \dots, X_{t-1})$:
+
+$$P(X_{t+1} = j \mid X_t = i, X_{t-1} = i_{t-1}, \dots, X_0 = i_0) = P(X_{t+1} = j \mid X_t = i) = P_{ij}$$
+
+- $X_t$: The state of the system at time step $t$.
     
-- **Transition Probabilities:** The likelihood of moving from one state to another. For instance, if it is `Sunny` today, there might be a 70% chance it stays `Sunny` tomorrow and a 30% chance it becomes `Rainy`.
+- $P_{ij}$: The **transition probability** of moving directly from state $i$ to state $j$ in one time step.
     
-- **Transition Matrix ($P$):** A table or matrix that neatly organizes all these transition probabilities. Every row in the matrix must sum up to 1 (or 100%), because the system _has_ to transition to something next.
+- **Intuitive Meaning:** The system has "no memory." It doesn't matter how or why you arrived at state $i$; only where you are _right now_ dictates where you can go _next_.
     
 
-## A Simple Example: The Weather
+### Phase 2: State Transitions & The Matrix Representation
 
-Let's look at a basic two-state Markov chain for the weather with two states: **Sunny** and **Rainy**.
+To track all possible moves across $N$ possible states, probabilities are organized into a square $N \times N$ matrix called the **Transition Matrix** $P$:
 
-- If today is **Sunny**:
+$$P = \begin{bmatrix} P_{11} & P_{12} & \dots & P_{1N} \\ P_{21} & P_{22} & \dots & P_{2N} \\ \vdots & \vdots & \ddots & \vdots \\ P_{N1} & P_{N2} & \dots & P_{NN} \end{bmatrix}$$
+
+- Every entry $P_{ij} \ge 0$ represents the likelihood of transitioning from row $i$ to column $j$.
     
-    - 80% chance tomorrow is Sunny.
+- **Row Stochastic Property:** Each row must sum to exactly $1.0$ ($\sum_{j=1}^N P_{ij} = 1$), because the system must transition to _some_ valid state in the next step.
+    
+
+### Phase 3: Multi-Step Forecasting (The Chapman-Kolmogorov Equation)
+
+To predict the probability distribution $k$ steps into the future ($\pi^{(t+k)}$) given a current state distribution $\pi^{(t)}$, you repeatedly multiply the probability vector by the transition matrix:
+
+$$\pi^{(t+k)} = \pi^{(t)} P^k$$
+
+- $\pi^{(t)}$: A row vector containing the current probabilities of being in each state.
+    
+- $P^k$: The transition matrix raised to the power of $k$.
+    
+
+### Phase 4: Long-Term Equilibrium (Stationary Distribution)
+
+Under certain conditions (if the chain is _ergodic_—meaning it is possible to eventually go from any state to any other state without getting stuck in a strict repeating cycle), the system eventually settles into a steady state called the **Stationary Distribution** $\pi$:
+
+$$\pi P = \pi$$
+
+- $\pi$: The long-term equilibrium vector where state probabilities no longer change from step to step, regardless of where the chain originally started ($X_0$).
+    
+
+## Additional Insights
+
+### Concrete Example: Simple Weather Model
+
+Imagine predicting tomorrow's weather using two states: **Sunny ($S$)** and **Rainy ($R$)**.
+
+- **Transition Rules:**
+    
+    - If today is Sunny: $80\%$ chance tomorrow is Sunny, $20\%$ chance tomorrow is Rainy.
         
-    - 20% chance tomorrow is Rainy.
+    - If today is Rainy: $40\%$ chance tomorrow is Sunny, $60\%$ chance tomorrow is Rainy.
         
-- If today is **Rainy**:
+- **Transition Matrix ($P$):**
     
-    - 40% chance tomorrow is Sunny.
-        
-    - 60% chance tomorrow is Rainy.
-        
+    $$\begin{bmatrix} 0.8 & 0.2 \\ 0.4 & 0.6 \end{bmatrix}$$
+    
+- **Memorylessness in Action:** If today is Sunny, the probability of tomorrow being Sunny is $80\%$, regardless of whether it rained for the past 10 days straight or was sunny for a month.
+    
 
-This system can be written as a **Transition Matrix**:
+### Direct Comparison: Markov Chain vs. Recurrent Neural Network (RNN)
 
-|-|**Tomorrow Sunny**|**Tomorrow Rainy**|
+|**Feature**|**Markov Chain**|**Recurrent Neural Network (RNN)**|
 |---|---|---|
-|**Today Sunny**|0.8|0.2|
-|**Today Rainy**|0.4|0.6|
+|**Memory State**|**Memoryless:** Strictly relies only on the current state $X_t$.|**Long Memory:** Retains a hidden state vector $h_t$ tracking temporal context across many steps.|
+|**Underlying Math**|Discrete matrix operations & fixed transition probabilities $P_{ij}$.|Continuous non-linear weight transformations ($W_{hh}, W_{xh}$).|
+|**Interpretability**|Transparent and exact analytical properties (stationary distribution).|Complex black-box representation.|
 
-If you want to know the weather two days from now, you can multiply this matrix by itself. Because it only cares about the present state, calculating long-term probabilities becomes a straightforward matrix algebra problem.
+### A Major Limitation: The Memoryless Assumption Breaks Down
 
-## Real-World Applications
-
-Because they simplify complex systems by ignoring unnecessary history, Markov chains are incredibly powerful and widely used:
-
-- **Google's PageRank:** The original algorithm behind Google Search treated the entire internet as a massive Markov chain. Each webpage was a state, and links between pages were the transitions.
+- **Context Blindness:** Many real-world processes depend heavily on past context. For example, in natural language processing, predicting the next word based _only_ on the current word (a 1st-order Markov Chain) yields nonsense text (e.g., "The" $\to$ "cat" $\to$ "sat" $\to$ "the"...).
     
-- **Text Prediction:** The predictive text on your smartphone keyboard uses a basic Markov chain to guess the next word based on the word you just typed.
-    
-- **Finance:** Analysts use them to model stock market regimes (e.g., transitioning between a Bull market, Bear market, and Stagnant market) to predict future market behaviors.
-    
-- **Genetics:** Scientists use them to model how DNA sequences mutate over generations.
-    
-
-## The Mathematical Definition
-
-For a sequence of random variables $X_1, X_2, X_3, \dots, X_n$, the Markov property is formally expressed as:
-
-$$P(X_{n+1} = x \mid X_1 = x_1, X_2 = x_2, \dots, X_n = x_n) = P(X_{n+1} = x \mid X_n = x_n)$$
-
-This equation states that the conditional probability of the future state ($X_{n+1}$), given all past states and the current state ($X_n$), depends entirely and exclusively on the current state ($X_n$).
+- **Workarounds:** Higher-order Markov Chains consider the last $n$ states ($P(X_{t+1} \mid X_t, X_{t-1}, \dots, X_{t-n+1})$), but this causes the state space and matrix size to explode exponentially ($N^n$), quickly running out of computational memory.

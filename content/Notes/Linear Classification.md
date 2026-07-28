@@ -1,8 +1,8 @@
 ---
-title: "Linear Classification"
-created: "2026-05-08 16:19"
+title: Linear Classification
+created: 2026-05-08 16:19
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 ***
 

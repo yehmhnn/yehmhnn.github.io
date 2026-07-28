@@ -1,5 +1,5 @@
 ---
-title: Gradient-Descent Methods
+title: Gradient Descent
 created: 2026-07-06 18:57
 tags file:
   - "[[Reinforcement Learning]]"
@@ -48,7 +48,8 @@ Imagine you are standing near the top of a mountain foggy with thick mist, and y
 
 To solve this using Gradient Descent, you use your feet to feel the slope of the ground immediately beneath you. You find the direction where the ground tilts upward the sharpest, turn $180^\circ$ in the exact opposite direction, and take one cautious, small step forward. You pause, feel the new slope under your feet, and take another step. By continuously taking steps opposite to the local slope, you will eventually navigate through the fog all the way down to the base of the valley.
 
-### A Direct Comparison: Gradient Descent vs. Gradient Ascent
+### Comparison
+#### Gradient Descent vs. Gradient Ascent
 
 While standard machine learning focuses on minimizing a bad thing (Error/Loss), policy-based reinforcement learning focuses on maximizing a good thing (Total Expected Reward, $J({\theta})$).
 
@@ -57,7 +58,15 @@ While standard machine learning focuses on minimizing a bad thing (Error/Loss), 
 - **Gradient Ascent** adds the gradient because it wants to climb _uphill_ to find the peak performance reward: ${\theta} \leftarrow {\theta} + \alpha \nabla J({\theta})$.
     
 
-Algorithms like **REINFORCE** use the Policy Gradient Theorem alongside Gradient _Ascent_ to make highly rewarding actions more likely to happen again.
+Algorithms like **[[REINFORCE]]** use the [[Policy Gradient Theorem]] alongside Gradient _Ascent_ to make highly rewarding actions more likely to happen again.
+
+#### The Gradient Descent Spectrum
+
+| **Optimization Variant**                  | **Data Used per Step**                       | **Trajectory Path**               | **Computational Speed per Step**                                           |
+| ----------------------------------------- | -------------------------------------------- | --------------------------------- | -------------------------------------------------------------------------- |
+| **Batch Gradient Descent**                | Entire dataset ($N$ samples)                 | Direct, smooth, deterministic     | **Slow:** Computation scales linearly with dataset size.                   |
+| **[[Stochastic Gradient Descent]] (SGD)** | Exactly $1$ random sample                    | Erratic, noisy, zig-zagging       | **Fastest:** Updates happen instantly, regardless of global dataset size . |
+| **Mini-Batch Gradient Descent**           | A small subset (e.g., $32$ to $256$ samples) | Mildly noisy, balanced compromise | **Optimized:** Leverages parallel processing hardware efficiently.         |
 
 ### A Major Limitation: Local Minima and Saddle Points
 

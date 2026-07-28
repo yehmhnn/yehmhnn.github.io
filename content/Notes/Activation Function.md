@@ -2,7 +2,7 @@
 title: Activation Function
 created: 2026-05-28 15:01
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 Activation functions can be categorized based on their position in the network architecture:
 

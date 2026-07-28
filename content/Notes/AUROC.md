@@ -2,7 +2,7 @@
 title: AUROC
 created: 2026-06-09 16:41
 tags file:
-  - "[[Machine Learning]]"
+  - "[[Machine Learning Essentials]]"
 ---
 **AUROC** stands for **Area Under the Receiver Operating Characteristic curve**.
 
