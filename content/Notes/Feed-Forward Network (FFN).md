@@ -5,7 +5,7 @@ tags file:
 ---
 ## The Definition (What)
 
-A Feed-Forward Network (FFN) is an artificial neural network where information flows strictly in one direction—from the input layer, through hidden processing layers, directly to the output layer—without any loops or cycles.
+A Feed-Forward Network (FFN) is an artificial neural network where information flows strictly in one direction—from the input layer, through hidden processing layers, directly to the output layer—without any loops or cycles. 
 
 ## Why It Is Important (Why)
 

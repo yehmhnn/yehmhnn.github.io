@@ -11,7 +11,22 @@ The Evidence Lower Bound (ELBO) is a mathematical proxy that turns the impossibl
 
 ## Why It Is Important (Why)
 
-In Bayesian machine learning and generative AI (such as Variational Autoencoders), calculating the true probability of observed data—known as the **marginal likelihood** or **evidence**—requires integrating across every possible hidden state, an operation that is computationally impossible (intractable) for high-dimensional data. ELBO solves this bottleneck by providing a computable lower limit for the true evidence; maximizing this lower bound naturally pushes our model's guesses closer to reality without ever needing to calculate the impossible integral.
+In Bayesian machine learning and generative AI (such as Variational Autoencoders), calculating the true probability of observed data—known as the **marginal likelihood** or **evidence**—requires integrating across every possible hidden state, an operation that is computationally impossible (intractable) for high-dimensional data. 
+
+ELBO solves this bottleneck by providing a computable lower limit for the true evidence; maximizing this lower bound naturally pushes our model's guesses closer to reality without ever needing to calculate the impossible integral.
+
+### What is Log-Evidence ($\log p(x)$)?
+
+In Bayesian statistics and machine learning, **evidence**—denoted as $p(x)$—is the marginal probability of observing your actual data $x$ under your statistical model. Taking its logarithm gives us the **log-evidence**, $\log p(x)$.
+
+- **The Goal:** We want to maximize $\log p(x)$ so our model assigns high probability to real observed data.
+    
+- **The Problem (Intractability):** To compute $p(x)$, we must marginalize (sum or integrate) over all possible hidden latent variables $z$:
+$$
+p(x) = \int p(x, z) \, dz
+$$
+
+When $z$ is high-dimensional (like hidden features in a neural network), this integral is impossible to compute analytically or numerically. Because $p(x)$ is intractable, the true posterior probability $p(z \mid x) = \frac{p(x, z)}{p(x)}$ is also intractable.
 
 ## How It Works (How)
 
@@ -54,7 +69,8 @@ $$\text{ELBO}(\phi) = \underbrace{\mathbb{E}_{q_\phi(z \mid x)}[\log p_\theta(x 
 - $\mathbb{E}_{q_\phi(z \mid x)}[\log p_\theta(x \mid z)]$: Measures how well the model reconstructs input $x$ after compressing it into latent variable $z$.
     
 - $\text{KL}\big(q_\phi(z \mid x) \parallel p(z)\big)$: Forces the approximate distribution $q_\phi(z \mid x)$ to remain close to a simple prior distribution $p(z)$ (typically a standard Gaussian $\mathcal{N}(0, I)$), preventing the model from memorizing individual inputs.
-    
+
+(see: [[From KL to ELBO]])
 
 ## Additional Insights
 

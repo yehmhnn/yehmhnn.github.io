@@ -21,7 +21,7 @@ Variational Inference works by picking a family of manageable candidate distribu
 
 ### Phase 1: Choosing a Variational Family
 
-To approximate the true but impossible-to-calculate posterior distribution $p(z \mid x)$, VI introduces a simpler, parameterized distribution family $q_\phi(z)$:
+To approximate the true but impossible-to-calculate posterior distribution $p(z \mid x)$, VI introduces a simpler, parameterized distribution family $q_\phi(z)$ (referred to [[Pyro Guide]]):
 
 $$q_\phi(z) \approx p(z \mid x)$$
 

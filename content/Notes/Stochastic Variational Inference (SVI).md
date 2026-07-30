@@ -17,7 +17,7 @@ SVI solves this scalability bottleneck by combining variational optimization wit
 
 SVI works by replacing an intractable probability distribution with a simpler family of distributions, then iteratively tweaking its parameters using noisy gradients calculated from random subsets of the data.
 
-### Phase 1: Framing as Optimization (The ELBO)
+### Phase 1: Framing as Optimization (The [[Evidence Lower Bound|ELBO]])
 
 To approximate an intractable true posterior distribution $p(z \mid x)$, SVI selects a tractable family of distributions $q_\phi(z)$ parameterized by $\phi$. It measures approximation quality by maximizing the **[[Evidence Lower Bound]] (ELBO)**, $\mathcal{L}(\phi)$:
 
@@ -29,7 +29,7 @@ $$\mathcal{L}(\phi) = \mathbb{E}_{q_\phi(z)}[\log p(x, z)] - \mathbb{E}_{q_\phi(
     
 - $q_\phi(z)$: The variational distribution trying to match the true posterior.
     
-- $\mathcal{L}(\phi)$: The ELBO objective value. Maximizing this lower bound directly minimizes the Kullback-Leibler (KL) divergence between $q_\phi(z)$ and the true distribution.
+- $\mathcal{L}(\phi)$: The ELBO objective value. Maximizing this lower bound directly minimizes the [[Kullback-Leibler (KL) divergence]] between $q_\phi(z)$ and the true distribution.
     
 
 ### Phase 2: Mini-Batch Decomposition

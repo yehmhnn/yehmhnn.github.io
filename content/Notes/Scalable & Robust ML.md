@@ -52,11 +52,11 @@ tags file:
 	- [[SmoothQuant]]
 
 4 Foundation Models/LLMs
-- Transformer for LLMs
+- [[Transformer]] for LLMs
 - Embedding Layers
 - MHA variants
 - Masked MHA
-- KV Cache
+- [[KV Caching]]
 
 5 LLM Optimizations
 - Normalization
@@ -102,7 +102,7 @@ tags file:
 	* Causal reasoning engines operating over Directed Acyclic Graphs (DAGs) and Conditional Probability Tables (CPTs).
 
 ### Practical Frameworks & Programming
-* [[Probabilistic Programming Languages]]
+* [[Probabilistic Programming]]
 	* The modern PPL software landscape and core tensor dimension axes syntax (Sample + Batch + Event) required for parallel generative code compilation.
 * [[Pyro]]
 
@@ -132,6 +132,7 @@ tags file:
 - [[Kullback-Leibler (KL) Divergence]]
 - [[Evidence Lower Bound]]
 - [[Reparameterization Trick]]
+- [[Pyro Guide]]
 - Probabilistic Forward Pass
 
 10 Bayesian Neural Networks

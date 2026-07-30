@@ -3,7 +3,7 @@ title: "Pyro"
 created: "2026-06-15 11:58"
 tags file:
 ---
-related note: [[Probabilistic Programming Languages]]
+related note: [[Probabilistic Programming]]
 ### Fundamental Pyro Script Operations
 
 Pyro decouples the structural model definition from the downstream inference engine. It relies on four primary API methods to manage data flow:

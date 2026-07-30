@@ -76,7 +76,9 @@ Activating large language models creates **outliers** (extreme values) in specif
 
 SmoothQuant redistributes the quantization difficulty between activations and weights. It mathematically migrates the activation outliers into the weight matrix using a per-channel scaling factor $s$:
 
-$$Y = (X \cdot \text{diag}(s)^{-1}) \cdot (\text{diag}(s) \cdot W)$$
+$$
+Y = (X \cdot \text{diag}(s)^{-1}) \cdot (\text{diag}(s) \cdot W)
+$$
 
 #### Comparison of Quantization Approaches
 
@@ -93,15 +95,19 @@ Bayes Theorems and Inferences: State Bayes Theorem in the context of BNNs. Why i
 
 #### Answer
 
-In a Bayesian Neural Network, we assign a prior distribution $p(w)$ over the parameters (weights) $w$. Given training data $\mathcal{D} = (X, Y)$, Bayes' Theorem gives the posterior distribution over weights:
+In a [[Bayesian Neural Network]], we assign a prior distribution $p(w)$ over the parameters (weights) $w$. Given training data $\mathcal{D} = (X, Y)$, Bayes' Theorem gives the posterior distribution over weights:
 
-$$p(w \mid \mathcal{D}) = \frac{p(\mathcal{D} \mid w) \, p(w)}{p(\mathcal{D})}$$
+$$
+p(w \mid \mathcal{D}) = \frac{p(\mathcal{D} \mid w) \, p(w)}{p(\mathcal{D})}
+$$
 
 #### Why Exact Inference is Intractable
 
 Computing the marginal likelihood (evidence) $p(\mathcal{D})$ requires integrating over the entire weight space:
 
-$$p(\mathcal{D}) = \int p(\mathcal{D} \mid w) \, p(w) \, dw$$
+$$
+p(\mathcal{D}) = \int p(\mathcal{D} \mid w) \, p(w) \, dw
+$$
 
 1. **High Dimensionality:** Modern neural networks have billions of weights ($\mathbb{R}^d$ where $d \ge 10^9$).
     
@@ -120,13 +126,17 @@ SVI: Briefly describe how SVI approximates posterior. What is the ELBO, and how 
 
 The **[[Evidence Lower Bound]] (ELBO)** is defined as:
 
-$$\text{ELBO}(\theta) = \mathbb{E}_{q_\theta(w)} [\log p(\mathcal{D} \mid w)] - D_{\text{KL}}(q_\theta(w) \parallel p(w))$$
+$$
+\text{ELBO}(\theta) = \mathbb{E}_{q_\theta(w)} [\log p(\mathcal{D} \mid w)] - D_{\text{KL}}(q_\theta(w) \parallel p(w))
+$$
 
 #### Relationship to KL Divergence
 
 The true marginal likelihood $\log p(\mathcal{D})$ can be decomposed as:
 
-$$\log p(\mathcal{D}) = \text{ELBO}(\theta) + D_{\text{KL}}(q_\theta(w) \parallel p(w \mid \mathcal{D}))$$
+$$
+\log p(\mathcal{D}) = \text{ELBO}(\theta) + D_{\text{KL}}(q_\theta(w) \parallel p(w \mid \mathcal{D}))
+$$
 
 #### Why Optimize ELBO Instead of KL Divergence?
 
@@ -136,11 +146,13 @@ Because $\log p(\mathcal{D})$ is a constant with respect to $\theta$, **maximizi
 
 ### Q6 Guide in SVI
 
-Guide: What is the purpose of the guide in SVI? List and explain the main considerations when designing an effective guide.
+Guide: What is the purpose of the guide in SVI? 
+List and explain the main considerations when designing an effective guide.
+[[Pyro Guide]]
 
 #### Answer
 
-In probabilistic programming frameworks, the **guide** (or variational distribution $q_\theta(w)$) is an auxiliary probabilistic model used to approximate the unobserved latent variables of the main **model** $p(\mathcal{D}, w)$.
+In [[Probabilistic Programming]] frameworks, the **guide** (or variational distribution $q_\theta(w)$) is an auxiliary probabilistic model used to approximate the unobserved latent variables of the main **model** $p(\mathcal{D}, w)$.
 
 #### Considerations for Designing an Effective Guide
 
@@ -153,7 +165,8 @@ In probabilistic programming frameworks, the **guide** (or variational distribut
 
 ### Q7 SVI-BNN
 
-**Original:** _A. Training a SVI-BNN: roles of different components: module, guide, optimizer, elbo, training loop. B. Implement a Bayesian model, like Bayesian linear regression._ **Rewritten:** _Explain the roles of core probabilistic components during SVI-BNN training and provide a conceptual implementation._
+A. Training a SVI-BNN: roles of different components: module, guide, optimizer, elbo, training loop. 
+B. Implement a Bayesian model, like Bayesian linear regression.
 
 #### Answer
 
@@ -213,7 +226,7 @@ for step in range(1000):
 
 ### Q8 MCMC
 
-**Original:** _MCMC vs Transformer-based model training regarding CPU and GPU: parameters, parallelism, memory access patterns, control flow, hardware optimization._ **Rewritten:** _Compare MCMC sampling and Transformer model training across parameters, parallelism, memory access patterns, control flow, and hardware optimization on CPUs and GPUs._
+Compare MCMC sampling and Transformer model training across parameters, parallelism, memory access patterns, control flow, and hardware optimization on CPUs and GPUs.
 
 #### Answer
 
@@ -226,8 +239,8 @@ for step in range(1000):
 
 ### Q9 KV Cache
 
-**Original:** _KV Cache:_ _a. Explain what KV cache is and how it affects autoregressive decoding computation._ _b. Discuss implications of KV caching for hardware performance (compute reuse, memory access patterns, off/on-chip memory requirements)._ **Rewritten:** _Explain the mechanics of KV Caching in autoregressive decoding and analyze its hardware performance trade-offs._
-
+a. Explain what KV cache is and how it affects autoregressive decoding computation.
+b. Discuss implications of [[KV caching]] for hardware performance (compute reuse, memory access patterns, off/on-chip memory requirements).
 #### Answer
 
 #### a. Mechanics & Impact

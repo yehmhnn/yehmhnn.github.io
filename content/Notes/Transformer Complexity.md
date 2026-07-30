@@ -9,11 +9,15 @@ Before looking at the Transformer, keep two rules in mind for matrix operations:
 
 - **Parameter Count:** If a linear layer maps an input vector of dimension $d_{in}$ to an output vector of dimension $d_{out}$, its weight matrix $W$ has dimensions $(d_{in} \times d_{out})$. The total number of parameters (weights) is:
     
-    $$\text{Parameters} = d_{in} \cdot d_{out}$$
+$$
+\text{Parameters} = d_{in} \cdot d_{out}
+$$
     
 - **MACs (Multiply-Accumulate Operations):** If you multiply an input matrix $X$ of shape $(L \times d_{in})$ by a weight matrix $W$ of shape $(d_{in} \times d_{out})$, the result has shape $(L \times d_{out})$. Calculating every single element takes $d_{in}$ multiplications and additions. The total MAC count is:
     
-    $$\text{MACs} = L \cdot d_{in} \cdot d_{out}$$
+$$
+\text{MACs} = L \cdot d_{in} \cdot d_{out}
+$$
     
 
 Here:
@@ -117,9 +121,13 @@ By summing up all four steps:
 
 - **Total Parameters:**
     
-    $$\underbrace{3d^2}_{\text{Q,K,V}} + \underbrace{0}_{\text{Attention}} + \underbrace{d^2}_{\text{Output Proj.}} + \underbrace{8d^2}_{\text{FFN}} = 12d^2$$
+$$
+\underbrace{3d^2}_{\text{Q,K,V}} + \underbrace{0}_{\text{Attention}} + \underbrace{d^2}_{\text{Output Proj.}} + \underbrace{8d^2}_{\text{FFN}} = 12d^2
+$$
     
 - **Total MACs:**
     
-    $$\underbrace{3Ld^2}_{\text{Q,K,V}} + \underbrace{2L^2 d}_{\text{Attention}} + \underbrace{Ld^2}_{\text{Output Proj.}} + \underbrace{8Ld^2}_{\text{FFN}} = 12Ld^2 + 2L^2 d$$
+$$
+\underbrace{3Ld^2}_{\text{Q,K,V}} + \underbrace{2L^2 d}_{\text{Attention}} + \underbrace{Ld^2}_{\text{Output Proj.}} + \underbrace{8Ld^2}_{\text{FFN}} = 12Ld^2 + 2L^2 d
+$$
     
