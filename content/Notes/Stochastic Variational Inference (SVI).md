@@ -1,7 +1,10 @@
 ---
-title: "Stochastic Variational Inference (SVI)"
-created: "2026-07-25 15:51"
+title: Stochastic Variational Inference (SVI)
+created: 2026-07-25 15:51
 tags file:
+  - "[[Scalable & Robust ML]]"
+aliases:
+  - SVI
 ---
 ## The Definition (What)
 
@@ -29,7 +32,7 @@ $$\mathcal{L}(\phi) = \mathbb{E}_{q_\phi(z)}[\log p(x, z)] - \mathbb{E}_{q_\phi(
     
 - $q_\phi(z)$: The variational distribution trying to match the true posterior.
     
-- $\mathcal{L}(\phi)$: The ELBO objective value. Maximizing this lower bound directly minimizes the [[Kullback-Leibler (KL) divergence]] between $q_\phi(z)$ and the true distribution.
+- $\mathcal{L}(\phi)$: The ELBO objective value. Maximizing this lower bound directly minimizes the [[Kullback-Leibler (KL) Divergence]] between $q_\phi(z)$ and the true distribution.
     
 
 ### Phase 2: Mini-Batch Decomposition
@@ -55,7 +58,7 @@ $$\phi \leftarrow \phi + \eta \nabla_\phi \mathcal{L}_{\text{mini}}(\phi)$$
     
 - $\nabla_\phi \mathcal{L}_{\text{mini}}(\phi)$: The stochastic gradient computed with respect to the variational parameters $\phi$.
     
-- Because the expectation is reparameterized, gradient variance remains low, allowing stable updates using standard optimizers like Adam or SGD.
+- Because the expectation is reparameterized (see: [[Reparameterization Trick]]), gradient variance remains low, allowing stable updates using standard optimizers like Adam or SGD.
     
 
 ## Additional Insights

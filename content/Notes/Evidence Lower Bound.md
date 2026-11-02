@@ -2,6 +2,7 @@
 title: Evidence Lower Bound
 created: 2026-06-16 11:58
 tags file:
+  - "[[Scalable & Robust ML]]"
 aliases:
   - ELBO
 ---
@@ -70,7 +71,7 @@ $$\text{ELBO}(\phi) = \underbrace{\mathbb{E}_{q_\phi(z \mid x)}[\log p_\theta(x 
     
 - $\text{KL}\big(q_\phi(z \mid x) \parallel p(z)\big)$: Forces the approximate distribution $q_\phi(z \mid x)$ to remain close to a simple prior distribution $p(z)$ (typically a standard Gaussian $\mathcal{N}(0, I)$), preventing the model from memorizing individual inputs.
 
-(see: [[From KL to ELBO]])
+(see: [[From ELBO to KL]])
 
 ## Additional Insights
 

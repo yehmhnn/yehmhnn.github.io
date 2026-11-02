@@ -77,7 +77,7 @@ $$
 
 ### Phase 2: The Bootstrapped Target Conflict
 
-In [[Temporal-Difference learning]], the target $U_t$ is not an absolute, independent historical fact. Instead, it is a _bootstrapped target_ built using the agent's own next-step guess:
+In [[Temporal-Difference Learning]], the target $U_t$ is not an absolute, independent historical fact. Instead, it is a _bootstrapped target_ built using the agent's own next-step guess:
 
 $$
 U_t = R_{t+1} + \gamma \hat{v}(S_{t+1}, \mathbf{w}_t)
@@ -121,7 +121,7 @@ $$
 | ------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | **Target Independence**   | The target $U_t$ must be completely independent of the weights $\mathbf{w}_t$. | The target $U_t$ can contain the weights $\mathbf{w}_t$ (bootstrapping).             |
 | **Mathematical Accuracy** | Follows the true, exact gradient of the total squared error.                   | Approximates the true gradient by ignoring the target's derivatives.                 |
-| **Algorithmic Fit**       | Ideal for [[Monte Carlo in RL]] (where targets are final real-world returns).  | Ideal for [[Temporal-Difference learning]] (where targets are step-by-step guesses). |
+| **Algorithmic Fit**       | Ideal for [[Monte Carlo in RL]] (where targets are final real-world returns).  | Ideal for [[Temporal-Difference Learning]] (where targets are step-by-step guesses). |
 | **Convergence Point**     | Converges directly to a local or global minimum error.                         | Converges to a slightly higher error boundary called the **TD Fixed Point**.         |
 
 ### A Major Limitation: The Deadly Triad

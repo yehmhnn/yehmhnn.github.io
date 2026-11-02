@@ -10,7 +10,7 @@ REINFORCE is a reinforcement learning algorithm that directly updates an agent's
 
 ## Why It Is Important (Why)
 
-It completely bypasses the need to guess or keep a giant table of how much every individual situation is worth. By optimizing the strategy (policy) directly rather than estimating state values, REINFORCE excels at handling tasks with continuous action spaces (like smoothly steering a vehicle or modulating a robotic valve) and can naturally learn to intentionally randomize its actions when uncertainty demands it (like bluffing in rock-paper-scissors or poker), which classic value-based methods like [[Q-learning]] struggle to achieve.
+It completely bypasses the need to guess or keep a giant table of how much every individual situation is worth. By optimizing the strategy (policy) directly rather than estimating state values, REINFORCE excels at handling tasks with continuous action spaces (like smoothly steering a vehicle or modulating a robotic valve) and can naturally learn to intentionally randomize its actions when uncertainty demands it (like bluffing in rock-paper-scissors or poker), which classic value-based methods like [[Q-Learning]] struggle to achieve.
 
 ## How It Works (How)
 

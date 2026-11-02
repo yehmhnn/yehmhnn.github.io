@@ -3,8 +3,6 @@ title: "Process Reward Modeling"
 created: "2026-05-07 15:32"
 tags file:
 ---
-***
-
 - PRMs W/o Human Annotations
 	- [[2024 MATH-SHEPHERD VERIFY AND REINFORCE LLMS  STEP-BY-STEP WITHOUT HUMAN ANNOTATIONS]]
 - Generative PRM with Code
@@ -20,7 +18,7 @@ tags file:
 	- 2025 Lessons of Developing PRMs
 	- [[2025 PRMBENCH - A Fine-grained and Challenging Benchmark for Process-Level Reward Models]]
 - PRMs with RAG and Reward Tree
-	- 2025 Retrieval-Augmented Process Reward Model for Generalizable Mathematical Reasoning
+	- [[2025 Retrieval-Augmented Process Reward Model for Generalizable Mathematical Reasoning]]
 	- 2025 Dynamic and Generalizable Process Reward Modeling
 - Error-aware PRM
 	- 2025 Error Typing for Smarter Rewards - Improving Process Reward Models with Error-Aware Hierarchical Supervision

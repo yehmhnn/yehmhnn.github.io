@@ -27,7 +27,7 @@ Here is how the math integrates directly into each step of the mechanism:
 
 ### Step 1: Direct Learning (Real-World Experience)
 
-The agent takes an action in the actual environment and receives real feedback. It immediately uses this to update its knowledge base (the Q-table) using the standard [[Q-learning]] equation:
+The agent takes an action in the actual environment and receives real feedback. It immediately uses this to update its knowledge base (the Q-table) using the standard [[Q-Learning]] equation:
 
 $$
 Q(s, a) \leftarrow Q(s, a) + \alpha [R_{env} + \gamma \max_{a'} Q(s', a') - Q(s, a)]

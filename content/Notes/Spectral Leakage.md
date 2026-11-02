@@ -14,4 +14,4 @@ The FFT algorithm operates under a strict mathematical assumption: it believes t
 
 In the physics of waves, a sharp, instantaneous change like this requires an infinite sum of high frequencies to construct. Because of this boundary artifact, energy from your true frequency "leaks" out across the entire spectrum, muddying your plot and throwing off your predictions. If you don't use a window, you are implicitly using a **Rectangular Window**, which acts like a brutal cookie-cutter.
 
-Solution: [[Windowing]]
+Solution: [[Windowing (Hann, Hamming)]]

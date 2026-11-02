@@ -2,6 +2,7 @@
 title: Variational Inference
 created: 2026-06-16 11:10
 tags file:
+  - "[[Scalable & Robust ML]]"
 aliases:
   - VI
 ---

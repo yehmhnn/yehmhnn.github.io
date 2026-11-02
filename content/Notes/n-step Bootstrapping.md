@@ -21,7 +21,7 @@ $n$-step bootstrapping acts as a **tunable slider** between these two extremes, 
 
 ## How It Works (How)
 
-### Phase 1: The [[On-Policy]] $n$-step Return Target
+### Phase 1: The [[on-policy]] $n$-step Return Target
 
 For a positive integer $n \ge 1$, we define our on-policy target update return starting at time step $t$ as :
 

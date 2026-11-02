@@ -19,9 +19,9 @@ This is **[[Model-Free vs. Model-Based RL]]**. It asks: Does the algorithm predi
 
 This is **On-Policy vs. Off-Policy**. It asks: Does the policy being evaluated and optimized match the behavior policy that is actively gathering the data?
 
-- **[[On-Policy]]:** Learning from your own current behavior, including your exploratory flaws and random mistakes.
+- **[[on-policy]]:** Learning from your own current behavior, including your exploratory flaws and random mistakes.
     
-- **[[Off-Policy]]:** Learning from a target policy (usually the idealized, optimal greedy policy) while using a different, exploratory behavior policy to look around.
+- **[[off-policy]]:** Learning from a target policy (usually the idealized, optimal greedy policy) while using a different, exploratory behavior policy to look around.
     
 
 # The 2x2 RL Matrix

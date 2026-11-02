@@ -61,7 +61,7 @@ Here is exactly what each mathematical component is doing:
     
 - **Multiplying by $V$ (The Output):** Finally, we multiply these attention percentages by the Value vector. This extracts the actual meaning of the words we decided to pay attention to, while ignoring the irrelevant ones.
 
-- **Add & Norm (The Skip Arrows):** Notice the lines that branch off _around_ the Multi-Head Attention and Feed Forward blocks? These are **[[residual connections]]**. They allow the original word information to bypass the heavy math layers unchanged, preventing vital data from getting distorted or lost as it climbs up the tower.
+- **Add & Norm (The Skip Arrows):** Notice the lines that branch off _around_ the Multi-Head Attention and Feed Forward blocks? These are **[[Residual Connections]]**. They allow the original word information to bypass the heavy math layers unchanged, preventing vital data from getting distorted or lost as it climbs up the tower.
     
 - **Feed Forward:** A standard, independent neural network layer that processes each word's new contextual meaning individually. ([[Feed-Forward Network (FFN)]])
 

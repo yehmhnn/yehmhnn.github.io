@@ -46,7 +46,7 @@ $$V^{*}(s)=\hat{r}(s)+\gamma\sum_{s^{\prime}}\hat{p}(s^{\prime}\vert{}s)V^{*}(s^
 - **$\hat{p}(s^{\prime}\vert{}s)$**: The empirical maximum-likelihood transition probability matrix, defined by the transition count ratio $\frac{N(s\rightarrow s^{\prime})}{N(s)}$.
     
 
-### Phase 4: Minimizing the [[Bellman Error]]
+### Phase 4: Minimizing the [[Bellman error]]
 
 From an optimization perspective, this repeating batch process minimizes a specific objective function. By differentiating the system and setting it to zero, it can be proven that the batch $TD(0)$ fixed point $V_{TD}$ explicitly minimizes the **Mean-Squared Bellman Error (MSBE)** on observed transitions:
 

@@ -84,6 +84,6 @@ Imagine you are a student taking a series of exams:
 
 While adding a baseline drastically reduces variance, the algorithm is still an **on-policy, Monte Carlo method**, which introduces two severe constraints:
 
-1. **Data Inefficiency ([[On-Policy]]):** It can only learn from data collected by its _current_ policy. If the policy changes even slightly, all previous training data becomes obsolete and must be discarded.
+1. **Data Inefficiency ([[on-policy]]):** It can only learn from data collected by its _current_ policy. If the policy changes even slightly, all previous training data becomes obsolete and must be discarded.
     
 2. **Delayed Updates (Monte Carlo):** It requires waiting until the very end of an episode to calculate $G_t$ before it can make a single adjustment to the weights. If an episode is extremely long, or if the environment is continuous without a clear ending, learning becomes agonizingly slow.

@@ -4,8 +4,6 @@ created: "2026-04-07 19:30"
 tags file:
   - [[GPU]]
 ---
-***
-
 ### Data & Memory (The "Warehouse")
 
 _Focus: Moving bits efficiently through the hierarchy._

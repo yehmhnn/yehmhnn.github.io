@@ -20,7 +20,7 @@ The **Cliff Walking** task is a classic gridworld environment used to illustrate
 
 ### The Behavioral Difference
 
-Even though both [[SARSA]] and [[Q-learning]] are tasked with the same goal, they behave very differently because of their underlying policies.
+Even though both [[SARSA]] and [[Q-Learning]] are tasked with the same goal, they behave very differently because of their underlying policies.
 
 #### 1. SARSA (On-Policy): The "Cautious" Path
 

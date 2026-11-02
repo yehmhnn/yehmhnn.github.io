@@ -8,7 +8,7 @@ Imagine you are a talent scout trying to pick the best singer from a group of co
 
 ## The Core Concept: Avoiding "Lucky" Estimates
 
-Standard [[Q-learning]] tends to systematically overestimate the value of actions because of noise in the estimation process.
+Standard [[Q-Learning]] tends to systematically overestimate the value of actions because of noise in the estimation process.
 
 | **The Metaphor (Talent Scout)**                                                                                                                                           | **The Reality (Q-Learning Math)**                                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

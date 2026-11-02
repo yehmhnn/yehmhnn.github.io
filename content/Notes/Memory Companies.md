@@ -1,7 +1,8 @@
 ---
-title: "Memory Companies"
-created: "2026-07-06 18:08"
+title: Memory Companies
+created: 2026-07-06 18:08
 tags file:
+  - "[[Table Talk]]"
 ---
 how many companies are making memory, what's the difference among them
 

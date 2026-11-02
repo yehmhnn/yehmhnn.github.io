@@ -165,7 +165,7 @@ In [[Probabilistic Programming]] frameworks, the **guide** (or variational distr
 
 ### Q7 SVI-BNN
 
-A. Training a SVI-BNN: roles of different components: module, guide, optimizer, elbo, training loop. 
+A. Training a [[Stochastic Variational Inference (SVI)]]-BNN: roles of different components: module, guide, optimizer, elbo, training loop. 
 B. Implement a Bayesian model, like Bayesian linear regression.
 
 #### Answer
@@ -240,7 +240,7 @@ Compare MCMC sampling and Transformer model training across parameters, parallel
 ### Q9 KV Cache
 
 a. Explain what KV cache is and how it affects autoregressive decoding computation.
-b. Discuss implications of [[KV caching]] for hardware performance (compute reuse, memory access patterns, off/on-chip memory requirements).
+b. Discuss implications of [[KV Caching]] for hardware performance (compute reuse, memory access patterns, off/on-chip memory requirements).
 #### Answer
 
 #### a. Mechanics & Impact

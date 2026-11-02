@@ -27,7 +27,7 @@ tags file:
     
 - [[Logistic Regression]] — Discriminative probabilistic modeling using log-odds optimization.
     
-- [[Multiclass Classification]] — One-vs-Rest (OvR), One-vs-One (OvO), and comprehensive linear classification synthesis.
+- [[Multiclass classification]] — One-vs-Rest (OvR), One-vs-One (OvO), and comprehensive linear classification synthesis.
     
 
 ### 2.7 – 2.11: Non-linear Models & Deep Fully Connected Networks
@@ -36,22 +36,29 @@ tags file:
     
 - [[The Standard Neuron]] — Structural mechanics computing pre-activations and activations via weights and biases.
     
-- [[XOR Problem]] — The classic historical limit proving a minimum of 2 layers is required for non-linear separations.
+- [[XOR problem]] — The classic historical limit proving a minimum of 2 layers is required for non-linear separations.
 
 - [[Crucial Deep Learning Theorems]]
 
 - [[Activation Function]] — Hidden layer transformations ($\text{ReLU}$, $\text{GELU}$, $\text{Swish}$, $\text{Tanh}$) and output selection ($\text{Softmax}$, $\text{Sigmoid}$).
     
 - [[Backpropagation]] — Evaluating the matrix chain rule recursively through layer error vectors ($\delta_l$).
+	- vanishing gradient problem?
+	- you need to store all of the intermediate value to do backpropagation, which is the limitation of training if you don't have a big gpu memory
 
 - [[Fully Connected Network (FCN)]] — Deep architectural layer sequencing, neuron allocations, and the structural bias neuron trick.
 
 - [[Neural Network Training Tricks]]
 
-
+last layer for classification tasks:
+the probability is not real. it just shows the sense of the order
 ### 2.12 – 2.15: Computer Vision & Modern Deep Architectures
 
-- `[[Convolutional Neural Networks (CNN)]]` — Local receptive fields, weight sharing, spatial hierarchies, pooling layers, and feature maps.
+- [[Convolutional Neural Networks (CNN)]]
+	- Local connectivity: 
+		- Nearby pixels are often more closely related than distant pixels, so CNNs initially focus on small regions rather than the entire image.
+	- Weight sharing: 
+		- The same pattern (like an edge) can appear anywhere, so CNNs reuse the same filters across different locations.
     
 - `[[Residual Networks (ResNet)]]` — Skip connections, residual learning blocks, and resolving the vanishing gradient barrier in very deep networks.
     

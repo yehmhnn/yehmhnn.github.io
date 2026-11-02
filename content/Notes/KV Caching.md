@@ -43,7 +43,7 @@ If you generate a 500-word answer to a 1,000-word prompt, you are mathematically
 
 ### Phase 2: The KV Cache Mechanism (Token-by-Token Generation)
 
-During [[auto-regressive decoding]], the model generates one new token at step $t+1$. Instead of re-projecting all $t$ past tokens into $Q, K,$ and $V$, the model only projects the **single new token** to get $q_{t+1}$, $k_{t+1}$, and $v_{t+1}$.
+During [[Auto-Regressive Decoding]], the model generates one new token at step $t+1$. Instead of re-projecting all $t$ past tokens into $Q, K,$ and $V$, the model only projects the **single new token** to get $q_{t+1}$, $k_{t+1}$, and $v_{t+1}$.
 
 It then appends the new $k_{t+1}$ and $v_{t+1}$ to the stored **KV Cache**:
 

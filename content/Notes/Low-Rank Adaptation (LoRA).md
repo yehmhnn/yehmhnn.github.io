@@ -2,6 +2,7 @@
 title: Low-Rank Adaptation (LoRA)
 created: 2026-06-24 12:41
 tags file:
+  - "[[LLM]]"
 ---
 ### The Definition (What)
 
