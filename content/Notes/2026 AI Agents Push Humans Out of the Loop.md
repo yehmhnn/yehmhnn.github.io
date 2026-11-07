@@ -5,11 +5,6 @@ tags file:
 ---
 # Paper at a Glance
 
-- **Paper:** AI Agents Push Humans Out of the Loop
-- **Authors:** Margaret Mitchell, Avijit Ghosh, Samir Passi (2026)
-- **Source:** https://arxiv.org/abs/2608.23642
-- **Type:** Position paper — a research argument and proposed design framework, not a new algorithm or experimental study.
-
 - **The 12-Year-Old Explanation:**
   - Imagine a robot doing your homework while you only check whether its answers are correct.
   - At first, this seems helpful. But the robot works so quickly and does so much that checking everything becomes exhausting.
